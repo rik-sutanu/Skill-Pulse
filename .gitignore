@@ -1,0 +1,32 @@
+
+# Dependencies
+node_modules/
+vendor/
+composer.phar
+
+# Environment & Local Secrets
+.env
+.env.local
+.env.*.local
+
+# Sensitive runtime state files
+backend/users_auth.json
+backend/identity_vault.json
+backend/audit_logs.json
+backend/access_logs.json
+backend/rate_limits.json
+backend/user_points.json
+backend/secure_uploads/
+
+# Build and Cache
+.next/
+dist/
+build/
+*.log
+*.zip
+scratch/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini

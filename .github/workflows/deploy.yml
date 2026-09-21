@@ -1,0 +1,40 @@
+name: SkillPulse CI/CD Verification
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    name: Syntax & Security Audit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup PHP Environment
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, curl, zip, bcmath
+          coverage: none
+
+      - name: Validate PHP Syntax across all files
+        run: |
+          find . -name "*.php" -not -path "./vendor/*" -not -path "./node_modules/*" -print0 | xargs -0 -n1 php -l
+
+      - name: Verify Environment Template
+        run: |
+          test -f .env.example || exit 1
+          grep -q "SUPABASE_URL" .env.example || exit 1
+          grep -q "TAWKTO_PROPERTY_ID" .env.example || exit 1
+
+      - name: Audit File Permissions & Configuration
+        run: |
+          test -f vercel.json || exit 1
+          test -f Dockerfile || exit 1
+          test -f render.yaml || exit 1
+          test -f database/supabase_schema.sql || exit 1

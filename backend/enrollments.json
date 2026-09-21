@@ -1,0 +1,143 @@
+[
+    {
+        "enrollmentId": "MH-MSW-2026-C0D9879D",
+        "timestamp": "2026-09-20T16:19:08+00:00",
+        "courseId": "MH-GOV-01",
+        "courseTitle": "Industry Bridging Course (MH-GOV-01)",
+        "courseCategory": "Technical Skilling",
+        "courseProvider": "SkillPulse TVET Network",
+        "candidate": {
+            "fullName": "Audit Test Learner",
+            "emailMasked": "au***@example.com",
+            "mobileMasked": "+91 98******10",
+            "qualification": "Diploma (Polytechnic)",
+            "district": "Pune",
+            "idType": "mahaswayam_id",
+            "idMasked": "MS***88"
+        },
+        "verification": {
+            "status": "VERIFIED_ACTIVE",
+            "badge": "Government of Maharashtra MahaSwayam Verified",
+            "schemeType": "mahaswayam_subsidized",
+            "subsidyWaiver": "100% Free under MahaSwayam Youth Skill Voucher (\u20b912,500 state grant approved)",
+            "registry": "MahaSwayam State TVET Candidate Register \u00a712(b)",
+            "verificationHash": "ab339aad8c62d9143493d96b55e89d24a634b1ca44a098009134df037c96a97b"
+        },
+        "officialPortals": [
+            {
+                "name": "MahaSwayam Employment Portal",
+                "url": "https:\/\/www.mahaswayam.gov.in\/",
+                "action": "Verify State Candidate ID"
+            },
+            {
+                "name": "Skill India Digital Hub (SIDH)",
+                "url": "https:\/\/www.skillindiadigital.gov.in\/",
+                "action": "Sync Skill Passport"
+            },
+            {
+                "name": "SWAYAM \/ NPTEL (Govt of India)",
+                "url": "https:\/\/swayam.gov.in\/",
+                "action": "Credit Transfer Repository"
+            },
+            {
+                "name": "DigiLocker APAAR Registry",
+                "url": "https:\/\/www.digilocker.gov.in\/",
+                "action": "Store Digital Credential"
+            }
+        ]
+    },
+    {
+        "enrollmentId": "MH-MSW-2026-7A26694E",
+        "timestamp": "2026-09-20T16:19:00+00:00",
+        "courseId": "MH-GOV-01",
+        "courseTitle": "Industry Bridging Course (MH-GOV-01)",
+        "courseCategory": "Technical Skilling",
+        "courseProvider": "SkillPulse TVET Network",
+        "candidate": {
+            "fullName": "Audit Test Learner",
+            "emailMasked": "au***@example.com",
+            "mobileMasked": "+91 98******10",
+            "qualification": "Diploma (Polytechnic)",
+            "district": "Pune",
+            "idType": "mahaswayam_id",
+            "idMasked": "MS***88"
+        },
+        "verification": {
+            "status": "VERIFIED_ACTIVE",
+            "badge": "Government of Maharashtra MahaSwayam Verified",
+            "schemeType": "mahaswayam_subsidized",
+            "subsidyWaiver": "100% Free under MahaSwayam Youth Skill Voucher (\u20b912,500 state grant approved)",
+            "registry": "MahaSwayam State TVET Candidate Register \u00a712(b)",
+            "verificationHash": "1c9b1e6691dbe9cdcd2e1af67275748bdfb78c8ea3eabfabe467485a14d99534"
+        },
+        "officialPortals": [
+            {
+                "name": "MahaSwayam Employment Portal",
+                "url": "https:\/\/www.mahaswayam.gov.in\/",
+                "action": "Verify State Candidate ID"
+            },
+            {
+                "name": "Skill India Digital Hub (SIDH)",
+                "url": "https:\/\/www.skillindiadigital.gov.in\/",
+                "action": "Sync Skill Passport"
+            },
+            {
+                "name": "SWAYAM \/ NPTEL (Govt of India)",
+                "url": "https:\/\/swayam.gov.in\/",
+                "action": "Credit Transfer Repository"
+            },
+            {
+                "name": "DigiLocker APAAR Registry",
+                "url": "https:\/\/www.digilocker.gov.in\/",
+                "action": "Store Digital Credential"
+            }
+        ]
+    },
+    {
+        "enrollmentId": "MH-MSW-2026-F3A30C54",
+        "timestamp": "2026-09-20T15:50:37+00:00",
+        "courseId": "c1",
+        "courseTitle": "SQL for Data Analysis & Advanced Querying",
+        "courseCategory": "Data Analytics",
+        "courseProvider": "Coursera (UC Davis)",
+        "candidate": {
+            "fullName": "Aditya Patil",
+            "emailMasked": "ad***@example.com",
+            "mobileMasked": "+91 98******45",
+            "qualification": "Polytechnic Diploma (MSBTE)",
+            "district": "Pune",
+            "idType": "mahaswayam_id",
+            "idMasked": "MS***10"
+        },
+        "verification": {
+            "status": "VERIFIED_ACTIVE",
+            "badge": "Government of Maharashtra MahaSwayam Verified",
+            "schemeType": "mahaswayam_subsidized",
+            "subsidyWaiver": "100% Free under MahaSwayam Youth Skill Voucher (\u20b912,500 state grant approved)",
+            "registry": "MahaSwayam State TVET Candidate Register \u00a712(b)",
+            "verificationHash": "c004178d350284b6dcce738bd1b636c5f7b43bfd1168ae03b8d6e68f87e7fd5d"
+        },
+        "officialPortals": [
+            {
+                "name": "MahaSwayam Employment Portal",
+                "url": "https:\/\/www.mahaswayam.gov.in\/",
+                "action": "Verify State Candidate ID"
+            },
+            {
+                "name": "Skill India Digital Hub (SIDH)",
+                "url": "https:\/\/www.skillindiadigital.gov.in\/",
+                "action": "Sync Skill Passport"
+            },
+            {
+                "name": "SWAYAM \/ NPTEL (Govt of India)",
+                "url": "https:\/\/swayam.gov.in\/",
+                "action": "Credit Transfer Repository"
+            },
+            {
+                "name": "DigiLocker APAAR Registry",
+                "url": "https:\/\/www.digilocker.gov.in\/",
+                "action": "Store Digital Credential"
+            }
+        ]
+    }
+]

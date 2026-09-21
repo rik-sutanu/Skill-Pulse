@@ -1,0 +1,12 @@
+.git
+.github
+.env
+.env.local
+.env.*.local
+node_modules
+tests
+*.log
+scratch
+Dockerfile
+.dockerignore
+DEPLOYMENT.md

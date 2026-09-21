@@ -1,0 +1,3288 @@
+window.SKILLPULSE_DATA = {
+  "INDUSTRIES": [
+    {
+      "id": "it",
+      "name": "Information Technology & Software",
+      "growth": "+28%",
+      "vacancies": 4500
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare & Biotech",
+      "growth": "+19%",
+      "vacancies": 2200
+    },
+    {
+      "id": "finance",
+      "name": "BFSI & Fintech",
+      "growth": "+22%",
+      "vacancies": 2800
+    },
+    {
+      "id": "manufacturing",
+      "name": "Advanced Manufacturing & Robotics",
+      "growth": "+15%",
+      "vacancies": 1600
+    },
+    {
+      "id": "retail",
+      "name": "E-commerce & Retail Tech",
+      "growth": "+14%",
+      "vacancies": 1400
+    },
+    {
+      "id": "automotive",
+      "name": "Automotive & EV Mobility",
+      "growth": "+25%",
+      "vacancies": 1100
+    }
+  ],
+  "SKILL_DEMAND_DATA": [
+    {
+      "skill": "Python",
+      "demand": 94,
+      "growth": "+34%",
+      "category": "Programming",
+      "industry": "IT / AI"
+    },
+    {
+      "skill": "SQL & Database Design",
+      "demand": 90,
+      "growth": "+26%",
+      "category": "Data",
+      "industry": "Cross-Industry"
+    },
+    {
+      "skill": "JavaScript / React",
+      "demand": 88,
+      "growth": "+22%",
+      "category": "Web Dev",
+      "industry": "IT"
+    },
+    {
+      "skill": "Cloud Computing (AWS/Azure)",
+      "demand": 86,
+      "growth": "+38%",
+      "category": "Infrastructure",
+      "industry": "IT"
+    },
+    {
+      "skill": "Data Analytics & Power BI",
+      "demand": 85,
+      "growth": "+32%",
+      "category": "Analytics",
+      "industry": "BFSI / Retail"
+    },
+    {
+      "skill": "Cybersecurity & Compliance",
+      "demand": 82,
+      "growth": "+29%",
+      "category": "Security",
+      "industry": "Cross-Industry"
+    },
+    {
+      "skill": "Machine Learning & GenAI",
+      "demand": 80,
+      "growth": "+48%",
+      "category": "AI/ML",
+      "industry": "Tech / Health"
+    },
+    {
+      "skill": "DevOps & Docker/K8s",
+      "demand": 76,
+      "growth": "+27%",
+      "category": "DevOps",
+      "industry": "IT"
+    },
+    {
+      "skill": "Professional Communication",
+      "demand": 89,
+      "growth": "+18%",
+      "category": "Soft Skills",
+      "industry": "Universal"
+    }
+  ],
+  "EMERGING_SKILLS": [
+    {
+      "name": "Generative AI & LLM Ops",
+      "growth": "+48%",
+      "category": "Artificial Intelligence",
+      "urgency": "Critical",
+      "impact": "High"
+    },
+    {
+      "name": "Cloud Native Architecture",
+      "growth": "+38%",
+      "category": "Cloud & Infrastructure",
+      "urgency": "High",
+      "impact": "High"
+    },
+    {
+      "name": "Zero-Trust Cybersecurity",
+      "growth": "+32%",
+      "category": "Security",
+      "urgency": "High",
+      "impact": "Critical"
+    },
+    {
+      "name": "Predictive Business Analytics",
+      "growth": "+29%",
+      "category": "Data Science",
+      "urgency": "Medium",
+      "impact": "High"
+    },
+    {
+      "name": "Industrial IoT & Robotics",
+      "growth": "+25%",
+      "category": "Manufacturing",
+      "urgency": "Medium",
+      "impact": "Medium"
+    }
+  ],
+  "JOB_ROLES": [
+    {
+      "id": "data-analyst",
+      "title": "Data Analyst",
+      "description": "Transform complex datasets into actionable business insights using SQL, statistical modeling, and BI visualization.",
+      "salaryRange": "₹5,50,000 - ₹11,00,000 / year",
+      "requiredSkills": [
+        {
+          "name": "SQL",
+          "priority": "High",
+          "weight": 20
+        },
+        {
+          "name": "Python",
+          "priority": "High",
+          "weight": 20
+        },
+        {
+          "name": "Excel (Advanced)",
+          "priority": "Medium",
+          "weight": 15
+        },
+        {
+          "name": "Power BI",
+          "priority": "High",
+          "weight": 20
+        },
+        {
+          "name": "Statistics & Probability",
+          "priority": "High",
+          "weight": 15
+        },
+        {
+          "name": "Data Visualization & Storytelling",
+          "priority": "Medium",
+          "weight": 10
+        }
+      ],
+      "recommendedPath": [
+        {
+          "step": 1,
+          "title": "Master Advanced Excel & Formulas",
+          "time": "2 Weeks",
+          "difficulty": "Beginner"
+        },
+        {
+          "step": 2,
+          "title": "Relational Database Queries with SQL",
+          "time": "3 Weeks",
+          "difficulty": "Beginner-Intermediate"
+        },
+        {
+          "step": 3,
+          "title": "Applied Business Statistics",
+          "time": "2 Weeks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "step": 4,
+          "title": "Interactive Dashboards with Power BI",
+          "time": "3 Weeks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "step": 5,
+          "title": "Exploratory Data Analysis with Python (Pandas/Seaborn)",
+          "time": "4 Weeks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "step": 6,
+          "title": "Complete 2 Capstone Industry Projects",
+          "time": "3 Weeks",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": "frontend-developer",
+      "title": "Frontend Developer",
+      "description": "Build responsive, accessible, high-performance web applications using modern component frameworks.",
+      "salaryRange": "₹5,00,000 - ₹12,50,000 / year",
+      "requiredSkills": [
+        {
+          "name": "JavaScript (ES6+)",
+          "priority": "High",
+          "weight": 25
+        },
+        {
+          "name": "React.js",
+          "priority": "High",
+          "weight": 25
+        },
+        {
+          "name": "HTML5 & CSS3",
+          "priority": "High",
+          "weight": 15
+        },
+        {
+          "name": "Tailwind CSS",
+          "priority": "Medium",
+          "weight": 10
+        },
+        {
+          "name": "Git & GitHub",
+          "priority": "Medium",
+          "weight": 15
+        },
+        {
+          "name": "REST APIs & State Management",
+          "priority": "High",
+          "weight": 10
+        }
+      ],
+      "recommendedPath": [
+        {
+          "step": 1,
+          "title": "Semantic HTML5, CSS Grid & Flexbox",
+          "time": "2 Weeks",
+          "difficulty": "Beginner"
+        },
+        {
+          "step": 2,
+          "title": "Modern JavaScript (DOM, Async/Await, ES6+)",
+          "time": "3 Weeks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "step": 3,
+          "title": "Version Control with Git & Team Workflows",
+          "time": "1 Week",
+          "difficulty": "Beginner"
+        },
+        {
+          "step": 4,
+          "title": "Component Architecture in React",
+          "time": "4 Weeks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "step": 5,
+          "title": "Rapid UI Styling with Tailwind CSS",
+          "time": "1 Week",
+          "difficulty": "Beginner"
+        },
+        {
+          "step": 6,
+          "title": "Build and Deploy 3 Production Web Apps",
+          "time": "3 Weeks",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": "backend-developer",
+      "title": "Backend Developer",
+      "description": "Design robust micro-APIs, scalable server architectures, database pipelines, and secure authentication.",
+      "salaryRange": "₹6,00,000 - ₹14,00,000 / year",
+      "requiredSkills": [
+        {
+          "name": "Node.js & Express",
+          "priority": "High",
+          "weight": 25
+        },
+        {
+          "name": "SQL & PostgreSQL",
+          "priority": "High",
+          "weight": 20
+        },
+        {
+          "name": "RESTful API Design",
+          "priority": "High",
+          "weight": 20
+        },
+        {
+          "name": "Authentication & JWT",
+          "priority": "Medium",
+          "weight": 15
+        },
+        {
+          "name": "Docker Fundamentals",
+          "priority": "Medium",
+          "weight": 10
+        },
+        {
+          "name": "Git & Version Control",
+          "priority": "Medium",
+          "weight": 10
+        }
+      ],
+      "recommendedPath": [
+        {
+          "step": 1,
+          "title": "JavaScript Runtime & Node.js Core Modules",
+          "time": "2 Weeks",
+          "difficulty": "Beginner-Intermediate"
+        },
+        {
+          "step": 2,
+          "title": "API Engineering with Express & Middleware",
+          "time": "3 Weeks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "step": 3,
+          "title": "PostgreSQL Relational Schema & ORMs",
+          "time": "3 Weeks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "step": 4,
+          "title": "Security, JWT Authentication, and Rate Limiting",
+          "time": "2 Weeks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "step": 5,
+          "title": "Containerization with Docker & Cloud Deployment",
+          "time": "2 Weeks",
+          "difficulty": "Advanced"
+        },
+        {
+          "step": 6,
+          "title": "End-to-End Enterprise API Capstone",
+          "time": "3 Weeks",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": "aiml-engineer",
+      "title": "AI / Machine Learning Engineer",
+      "description": "Design, train, and deploy predictive models, neural architectures, and intelligent NLP/LLM pipelines.",
+      "salaryRange": "₹7,50,000 - ₹18,00,000 / year",
+      "requiredSkills": [
+        {
+          "name": "Python",
+          "priority": "High",
+          "weight": 25
+        },
+        {
+          "name": "Linear Algebra & Calculus",
+          "priority": "High",
+          "weight": 15
+        },
+        {
+          "name": "Scikit-Learn & Machine Learning",
+          "priority": "High",
+          "weight": 20
+        },
+        {
+          "name": "Deep Learning (PyTorch/TensorFlow)",
+          "priority": "High",
+          "weight": 20
+        },
+        {
+          "name": "Prompt Engineering & LLM APIs",
+          "priority": "Medium",
+          "weight": 10
+        },
+        {
+          "name": "Model Deployment & Docker",
+          "priority": "Medium",
+          "weight": 10
+        }
+      ],
+      "recommendedPath": [
+        {
+          "step": 1,
+          "title": "Advanced Python, NumPy & Vector Math",
+          "time": "3 Weeks",
+          "difficulty": "Beginner-Intermediate"
+        },
+        {
+          "step": 2,
+          "title": "Supervised & Unsupervised Machine Learning",
+          "time": "4 Weeks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "step": 3,
+          "title": "Neural Networks & Computer Vision / NLP",
+          "time": "4 Weeks",
+          "difficulty": "Advanced"
+        },
+        {
+          "step": 4,
+          "title": "Fine-Tuning LLMs & Retrieval Augmented Generation (RAG)",
+          "time": "3 Weeks",
+          "difficulty": "Advanced"
+        },
+        {
+          "step": 5,
+          "title": "Model Serving with FastAPI & Docker",
+          "time": "2 Weeks",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity-analyst",
+      "title": "Cybersecurity Analyst",
+      "description": "Protect enterprise infrastructure, monitor threat telemetry, audit security policies, and incident response.",
+      "salaryRange": "₹6,00,000 - ₹13,00,000 / year",
+      "requiredSkills": [
+        {
+          "name": "Network Security & Protocols",
+          "priority": "High",
+          "weight": 25
+        },
+        {
+          "name": "Linux System Administration",
+          "priority": "High",
+          "weight": 20
+        },
+        {
+          "name": "Threat Hunting & SIEM Tools",
+          "priority": "High",
+          "weight": 20
+        },
+        {
+          "name": "Vulnerability Assessment",
+          "priority": "Medium",
+          "weight": 15
+        },
+        {
+          "name": "Ethical Hacking Fundamentals",
+          "priority": "Medium",
+          "weight": 10
+        },
+        {
+          "name": "Compliance & Standards (ISO/NIST)",
+          "priority": "Medium",
+          "weight": 10
+        }
+      ],
+      "recommendedPath": [
+        {
+          "step": 1,
+          "title": "TCP/IP, Firewalls & Network Architecture",
+          "time": "3 Weeks",
+          "difficulty": "Beginner-Intermediate"
+        },
+        {
+          "step": 2,
+          "title": "Linux Command Line & Scripting",
+          "time": "2 Weeks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "step": 3,
+          "title": "Security Information and Event Management (SIEM)",
+          "time": "3 Weeks",
+          "difficulty": "Intermediate"
+        },
+        {
+          "step": 4,
+          "title": "Penetration Testing & Web Vulnerability Scans",
+          "time": "3 Weeks",
+          "difficulty": "Advanced"
+        },
+        {
+          "step": 5,
+          "title": "Incident Response & Governance Playbooks",
+          "time": "2 Weeks",
+          "difficulty": "Advanced"
+        }
+      ]
+    }
+  ],
+  "MAHARASHTRA_DISTRICTS": [
+    {
+      "district": "Pune",
+      "division": "Pune Division",
+      "primaryIndustry": "Automotive, Auto Component, IT/ITeS & Electronics",
+      "clusters": "Chakan-Talegaon, Bhosari MIDC, Hinjawadi Rajiv Gandhi Infotech Park",
+      "vacancies": 38450,
+      "trainingCapacity": 18200,
+      "itisCount": 54,
+      "alignment": 81,
+      "prioritySector": "Industry 4.0 / EV Systems / Cloud Software",
+      "portalUrl": "https://www.mahaswayam.gov.in/"
+    },
+    {
+      "district": "Mumbai City & Suburban",
+      "division": "Konkan Division",
+      "primaryIndustry": "BFSI, Fintech, Media, Logistics & Healthcare",
+      "clusters": "BKC Financial District, Andheri SEEPZ, Goregaon Tech Hub",
+      "vacancies": 42100,
+      "trainingCapacity": 12400,
+      "itisCount": 28,
+      "alignment": 79,
+      "prioritySector": "Financial Analytics / Full Stack Web / Digital Media",
+      "portalUrl": "https://www.mahaswayam.gov.in/"
+    },
+    {
+      "district": "Thane & Navi Mumbai",
+      "division": "Konkan Division",
+      "primaryIndustry": "Chemicals, Bulk Pharma, Data Centers & Supply Chain",
+      "clusters": "TTC Industrial Area, Taloja MIDC, Turbhe, Rabale IT parks",
+      "vacancies": 26800,
+      "trainingCapacity": 11800,
+      "itisCount": 32,
+      "alignment": 76,
+      "prioritySector": "Cloud Infrastructure / Process Automation / Supply Chain",
+      "portalUrl": "https://www.mahaswayam.gov.in/"
+    },
+    {
+      "district": "Nagpur",
+      "division": "Nagpur Division",
+      "primaryIndustry": "Aerospace MRO, Logistics, Central Defense & Agro-Tech",
+      "clusters": "MIHAN Multi-modal SEZ, Butibori Industrial Area, Hingna MIDC",
+      "vacancies": 14200,
+      "trainingCapacity": 14600,
+      "itisCount": 48,
+      "alignment": 72,
+      "prioritySector": "Aviation Maintenance / Multi-modal Logistics / Data Systems",
+      "portalUrl": "https://www.mahaswayam.gov.in/"
+    },
+    {
+      "district": "Nashik",
+      "division": "Nashik Division",
+      "primaryIndustry": "Defense Aerospace (HAL), Heavy Engineering & Pharma",
+      "clusters": "Satpur MIDC, Ambad Industrial Estate, Ozar Aerospace Complex",
+      "vacancies": 12800,
+      "trainingCapacity": 10900,
+      "itisCount": 42,
+      "alignment": 75,
+      "prioritySector": "Precision CNC / Robotics / Aerospace Quality Inspection",
+      "portalUrl": "https://www.mahaswayam.gov.in/"
+    },
+    {
+      "district": "Chhatrapati Sambhajinagar",
+      "division": "Marathwada Division",
+      "primaryIndustry": "Automotive, Brewery, Pharmaceuticals & Defense Hardware",
+      "clusters": "Shendra-Bidkin AURIC Smart City, Waluj MIDC, Chikalthana",
+      "vacancies": 11500,
+      "trainingCapacity": 9700,
+      "itisCount": 38,
+      "alignment": 74,
+      "prioritySector": "Electric Vehicle Powertrains / Pharma Formulation QA",
+      "portalUrl": "https://www.mahaswayam.gov.in/"
+    },
+    {
+      "district": "Kolhapur & Sangli",
+      "division": "Pune Division",
+      "primaryIndustry": "Ferrous Foundry, Textile Spinning, Auto Components",
+      "clusters": "Shiroli MIDC, Gokul Shirgaon, Kupwad Industrial Area",
+      "vacancies": 8900,
+      "trainingCapacity": 8200,
+      "itisCount": 36,
+      "alignment": 71,
+      "prioritySector": "Advanced Metallurgy / Foundry Automation / Green Energy",
+      "portalUrl": "https://www.mahaswayam.gov.in/"
+    },
+    {
+      "district": "Solapur",
+      "division": "Pune Division",
+      "primaryIndustry": "Technical Textiles, Chaddar & Terry Towels, Sugar Tech",
+      "clusters": "Kumbhari Textile Cluster, Chincholi MIDC, Akkalkot Road",
+      "vacancies": 6400,
+      "trainingCapacity": 7100,
+      "itisCount": 31,
+      "alignment": 68,
+      "prioritySector": "Automated Loom Operations / Renewable Solar Tech",
+      "portalUrl": "https://www.mahaswayam.gov.in/"
+    },
+    {
+      "district": "Amravati & Akola",
+      "division": "Amravati Division",
+      "primaryIndustry": "Textile Mega-Parks, Agro-processing, Oil Mills",
+      "clusters": "Nandgaon Peth Mega Textile Park, MIDC Phase II",
+      "vacancies": 5100,
+      "trainingCapacity": 7800,
+      "itisCount": 34,
+      "alignment": 65,
+      "prioritySector": "Agro-processing Machinery / Modern Textile Weaving",
+      "portalUrl": "https://www.mahaswayam.gov.in/"
+    }
+  ],
+  "INITIAL_CURRICULUM": [
+    {
+      "id": 1,
+      "name": "Module 1: Programming Fundamentals (Python / C++)",
+      "coveredSkills": [
+        "Python",
+        "Basic Logic",
+        "Algorithms"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Module 2: Database Management & SQL",
+      "coveredSkills": [
+        "SQL",
+        "Relational DB",
+        "Normalization"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Module 3: Web Development Fundamentals",
+      "coveredSkills": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Module 4: Software Engineering & Git",
+      "coveredSkills": [
+        "Git",
+        "SDLC",
+        "Agile"
+      ]
+    }
+  ],
+  "COURSES": [
+    {
+      "id": "c1",
+      "title": "SQL for Data Analysis & Advanced Querying",
+      "provider": "Coursera (UC Davis)",
+      "providerType": "External University Provider",
+      "category": "Data Analytics",
+      "skill": "SQL",
+      "level": "Beginner",
+      "duration": "18 Hours (Self-paced)",
+      "durationType": "medium",
+      "rating": 4.8,
+      "reviewsCount": 28450,
+      "isFree": true,
+      "priceLabel": "Free to Audit",
+      "shortDescription": "Master relational database querying, complex multi-table joins, subqueries, and window functions to extract business intelligence from raw tables.",
+      "url": "https://www.coursera.org/learn/sql-for-data-science",
+      "tags": [
+        "SELECT",
+        "JOINs",
+        "Window Functions",
+        "Aggregations",
+        "GROUP BY"
+      ],
+      "alignedGap": "SQL",
+      "iconColor": "from-blue-500 to-cyan-600",
+      "isPopular": true
+    },
+    {
+      "id": "c2",
+      "title": "Python for Data Science & Automation",
+      "provider": "Harvard Online / edX (CS50P)",
+      "providerType": "External Academic Resource",
+      "category": "Programming",
+      "skill": "Python",
+      "level": "Beginner",
+      "duration": "10 Weeks (3-5 hrs/wk)",
+      "durationType": "comprehensive",
+      "rating": 4.9,
+      "reviewsCount": 42100,
+      "isFree": true,
+      "priceLabel": "Free Open Access",
+      "shortDescription": "Comprehensive introduction to programming with Python: functions, arguments, variables, conditionals, loops, exceptions, libraries, unit tests, and file I/O.",
+      "url": "https://cs50.harvard.edu/python",
+      "tags": [
+        "Core Syntax",
+        "OOP",
+        "File I/O",
+        "Unit Testing",
+        "Pandas Intro"
+      ],
+      "alignedGap": "Python",
+      "iconColor": "from-amber-500 to-orange-600",
+      "isPopular": true
+    },
+    {
+      "id": "c3",
+      "title": "Modern React & State Architecture",
+      "provider": "freeCodeCamp",
+      "providerType": "Open-Source Learning Platform",
+      "category": "Web Development",
+      "skill": "React",
+      "level": "Intermediate",
+      "duration": "14 Hours (Hands-on)",
+      "durationType": "short",
+      "rating": 4.8,
+      "reviewsCount": 19800,
+      "isFree": true,
+      "priceLabel": "100% Free",
+      "shortDescription": "Build modern responsive Single Page Applications with React 18, custom hooks, Context API, performance memoization, and REST API consumption.",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/",
+      "tags": [
+        "Hooks",
+        "Context API",
+        "State Management",
+        "Virtual DOM",
+        "Next.js Prep"
+      ],
+      "alignedGap": "React",
+      "iconColor": "from-cyan-500 to-blue-600",
+      "isPopular": true
+    },
+    {
+      "id": "c4",
+      "title": "AWS Cloud Practitioner & Architecture Fundamentals",
+      "provider": "AWS Skill Builder",
+      "providerType": "Official Cloud Provider Training",
+      "category": "Cloud",
+      "skill": "Cloud Computing",
+      "level": "Beginner",
+      "duration": "12 Hours",
+      "durationType": "short",
+      "rating": 4.7,
+      "reviewsCount": 31200,
+      "isFree": true,
+      "priceLabel": "Free Digital Training",
+      "shortDescription": "Understand fundamental AWS cloud concepts, security best practices, core computing services (EC2, Lambda, S3), pricing models, and architectural resilience.",
+      "url": "https://explore.skillbuilder.aws/",
+      "tags": [
+        "AWS EC2",
+        "S3 Storage",
+        "Cloud Security",
+        "IAM Roles",
+        "VPC Basics"
+      ],
+      "alignedGap": "Cloud Computing",
+      "iconColor": "from-orange-500 to-amber-600",
+      "isPopular": true
+    },
+    {
+      "id": "c5",
+      "title": "Machine Learning Specialization: Foundations to Neural Nets",
+      "provider": "DeepLearning.AI / Coursera",
+      "providerType": "External Specialized Institute",
+      "category": "AI / ML",
+      "skill": "Machine Learning",
+      "level": "Intermediate",
+      "duration": "8 Weeks (5 hrs/wk)",
+      "durationType": "comprehensive",
+      "rating": 4.9,
+      "reviewsCount": 65400,
+      "isFree": false,
+      "priceLabel": "Paid / Financial Aid Avail.",
+      "shortDescription": "Taught by Andrew Ng, covering supervised learning (linear regression, logistic regression, decision trees), neural networks, and unsupervised techniques.",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "tags": [
+        "Supervised Learning",
+        "Gradient Descent",
+        "Neural Networks",
+        "Feature Engineering"
+      ],
+      "alignedGap": "Machine Learning",
+      "iconColor": "from-purple-500 to-indigo-600",
+      "isPopular": true
+    },
+    {
+      "id": "c6",
+      "title": "Foundations of Zero-Trust Cybersecurity & Network Defense",
+      "provider": "NPTEL / SWAYAM (IIT Madras)",
+      "providerType": "Government / Academic Consortium",
+      "category": "Cybersecurity",
+      "skill": "Cybersecurity",
+      "level": "Intermediate",
+      "duration": "12 Weeks (Ministry Curriculum)",
+      "durationType": "comprehensive",
+      "rating": 4.6,
+      "reviewsCount": 8900,
+      "isFree": true,
+      "priceLabel": "Free Government Audit",
+      "shortDescription": "Ministry-recognized curriculum covering network protocols, cryptographic primitives, zero-trust architecture, penetration testing basics, and incident response.",
+      "url": "https://swayam.gov.in",
+      "tags": [
+        "Zero-Trust",
+        "Cryptography",
+        "Network Security",
+        "Firewalls",
+        "SOC Auditing"
+      ],
+      "alignedGap": "Cybersecurity",
+      "iconColor": "from-rose-500 to-pink-600",
+      "isPopular": false
+    },
+    {
+      "id": "c7",
+      "title": "Docker & Kubernetes Containerization for Microservices",
+      "provider": "Udemy (Bret Fisher)",
+      "providerType": "Commercial Online Marketplace",
+      "category": "DevOps",
+      "skill": "DevOps & Docker",
+      "level": "Intermediate",
+      "duration": "19 Hours (Full Bootcamp)",
+      "durationType": "medium",
+      "rating": 4.8,
+      "reviewsCount": 38900,
+      "isFree": false,
+      "priceLabel": "Paid (~₹499 on sale)",
+      "shortDescription": "Build, test, and deploy multi-container microservices using Docker Compose, Swarm, and production Kubernetes clusters with automated CI/CD pipelines.",
+      "url": "https://www.udemy.com",
+      "tags": [
+        "Containers",
+        "Kubernetes Pods",
+        "Dockerfiles",
+        "CI/CD Pipelines",
+        "Deployments"
+      ],
+      "alignedGap": "DevOps",
+      "iconColor": "from-blue-600 to-indigo-700",
+      "isPopular": false
+    },
+    {
+      "id": "c8",
+      "title": "Business Intelligence & Dashboarding with Power BI",
+      "provider": "edX (Microsoft)",
+      "providerType": "Industry Vendor Learning Track",
+      "category": "Data Analytics",
+      "skill": "Power BI",
+      "level": "Beginner",
+      "duration": "4 Weeks (3 hrs/wk)",
+      "durationType": "short",
+      "rating": 4.7,
+      "reviewsCount": 15400,
+      "isFree": true,
+      "priceLabel": "Free to Audit",
+      "shortDescription": "Connect diverse data sources, build robust relational data models with DAX, and construct high-impact executive dashboards for stakeholders.",
+      "url": "https://www.edx.org",
+      "tags": [
+        "DAX Formulas",
+        "Data Modeling",
+        "Interactive Dashboards",
+        "ETL Transformations"
+      ],
+      "alignedGap": "Power BI",
+      "iconColor": "from-amber-600 to-yellow-600",
+      "isPopular": false
+    },
+    {
+      "id": "c9",
+      "title": "Data Structures & Algorithms: The Technical Interview Prep",
+      "provider": "freeCodeCamp / MIT OpenCourseWare",
+      "providerType": "Open Educational Resource",
+      "category": "Programming",
+      "skill": "Data Structures & Algorithms",
+      "level": "Advanced",
+      "duration": "24 Hours",
+      "durationType": "medium",
+      "rating": 4.9,
+      "reviewsCount": 47800,
+      "isFree": true,
+      "priceLabel": "100% Free",
+      "shortDescription": "In-depth mastery of binary search trees, graph traversals (BFS/DFS), dynamic programming, priority queues, and Big-O computational complexity.",
+      "url": "https://ocw.mit.edu",
+      "tags": [
+        "Graphs",
+        "Dynamic Programming",
+        "Heaps",
+        "Big-O",
+        "Trees"
+      ],
+      "alignedGap": "Data Structures & Algorithms",
+      "iconColor": "from-emerald-500 to-teal-600",
+      "isPopular": true
+    },
+    {
+      "id": "c10",
+      "title": "Applied Data Science with Pandas & Scikit-Learn",
+      "provider": "Coursera (University of Michigan)",
+      "providerType": "External University Provider",
+      "category": "Data Science",
+      "skill": "Python & Pandas",
+      "level": "Intermediate",
+      "duration": "5 Weeks (4 hrs/wk)",
+      "durationType": "medium",
+      "rating": 4.7,
+      "reviewsCount": 22100,
+      "isFree": false,
+      "priceLabel": "Paid / Audit Avail.",
+      "shortDescription": "Apply statistical analysis, data cleaning, visualization with Seaborn, and machine learning modeling using Python pandas, NumPy, and scikit-learn.",
+      "url": "https://www.coursera.org",
+      "tags": [
+        "Pandas DataFrames",
+        "NumPy Arrays",
+        "Scikit-Learn",
+        "Matplotlib",
+        "EDA"
+      ],
+      "alignedGap": "Python & Pandas",
+      "iconColor": "from-cyan-600 to-blue-700",
+      "isPopular": false
+    },
+    {
+      "id": "c11",
+      "title": "Google Cloud Certified Associate Cloud Engineer Track",
+      "provider": "Google Cloud Skills Boost",
+      "providerType": "Vendor Official Portal",
+      "category": "Cloud",
+      "skill": "Cloud Computing",
+      "level": "Intermediate",
+      "duration": "25 Hours",
+      "durationType": "medium",
+      "rating": 4.8,
+      "reviewsCount": 16700,
+      "isFree": true,
+      "priceLabel": "Free Trial / Labs",
+      "shortDescription": "Deploy applications, monitor operations, and manage enterprise solutions on Google Cloud Platform (Compute Engine, GKE, Cloud Run, Cloud Storage).",
+      "url": "https://www.cloudskillsboost.google",
+      "tags": [
+        "GCP IAM",
+        "Compute Engine",
+        "GKE Containers",
+        "Cloud SQL"
+      ],
+      "alignedGap": "Cloud Computing",
+      "iconColor": "from-blue-500 to-emerald-500",
+      "isPopular": false
+    },
+    {
+      "id": "c12",
+      "title": "Generative AI & LLM Application Engineering",
+      "provider": "DeepLearning.AI",
+      "providerType": "External Specialized Institute",
+      "category": "AI / ML",
+      "skill": "Generative AI",
+      "level": "Advanced",
+      "duration": "16 Hours",
+      "durationType": "medium",
+      "rating": 4.9,
+      "reviewsCount": 31500,
+      "isFree": true,
+      "priceLabel": "Free Short Course",
+      "shortDescription": "Learn prompt engineering, LangChain integration, vector embeddings (Chroma, Pinecone), retrieval-augmented generation (RAG), and fine-tuning open models.",
+      "url": "https://www.deeplearning.ai",
+      "tags": [
+        "RAG Architecture",
+        "Vector Databases",
+        "Prompt Engineering",
+        "LangChain",
+        "Embeddings"
+      ],
+      "alignedGap": "Generative AI",
+      "iconColor": "from-purple-600 to-pink-600",
+      "isPopular": true
+    }
+  ],
+  "EXPERTS": [
+    {
+      "id": "exp-1",
+      "name": "Ananya Deshmukh",
+      "role": "Lead Data & Analytics Specialist",
+      "companyContext": "FinTech & Banking Analytics (Bengaluru / Pune)",
+      "industry": "Financial Services & Fintech",
+      "primaryDomain": "Data Analytics",
+      "yearsExperience": 8,
+      "experienceTier": "6-10 Years (Senior)",
+      "avatarInitials": "AD",
+      "avatarColor": "from-blue-600 to-cyan-500",
+      "rating": 4.9,
+      "sessionsCount": 64,
+      "availability": "Available This Weekend (Sat & Sun)",
+      "consultationTypes": [
+        "Career Guidance",
+        "Resume Review",
+        "Ask an Expert"
+      ],
+      "expertise": [
+        "SQL & Data Warehousing",
+        "Power BI & Tableau",
+        "Financial Modeling",
+        "ETL Pipelines"
+      ],
+      "shortBio": "Leading cross-functional business intelligence and data warehousing teams across tier-1 banking corridors. Passionate about helping aspiring analysts master real-world SQL modeling.",
+      "fullBio": "Ananya has 8+ years of hands-on experience designing analytics architectures and executive dashboards for multi-billion rupee transaction platforms. She mentors candidates on translating business questions into efficient SQL queries and structuring compelling project portfolios.",
+      "targetRolesAligned": [
+        "data-analyst",
+        "data-scientist"
+      ],
+      "verifiedStatus": "Verified Industry Mentor (Demo)"
+    },
+    {
+      "id": "exp-2",
+      "name": "Vikramaditya Sen",
+      "role": "Staff Distributed Systems Engineer",
+      "companyContext": "Global Enterprise Cloud Systems (Hyderabad)",
+      "industry": "Enterprise Software & Infrastructure",
+      "primaryDomain": "Software Engineering",
+      "yearsExperience": 12,
+      "experienceTier": "10+ Years (Principal / Lead)",
+      "avatarInitials": "VS",
+      "avatarColor": "from-navy-800 to-indigo-600",
+      "rating": 4.9,
+      "sessionsCount": 92,
+      "availability": "Tuesday & Thursday Evenings",
+      "consultationTypes": [
+        "Mock Interview",
+        "Career Guidance",
+        "Industry Q&A"
+      ],
+      "expertise": [
+        "Distributed Systems",
+        "Golang & Java",
+        "System Design",
+        "Algorithms & Big-O"
+      ],
+      "shortBio": "Specialist in high-throughput distributed architectures, microservices scalability, and algorithmic interview prep. Previously led core platform pods for tier-1 SaaS providers.",
+      "fullBio": "Vikramaditya brings 12 years of core engineering experience across distributed queues, high-concurrency microservices, and database partitioning. He regularly conducts mock system design interviews and technical algorithm evaluations.",
+      "targetRolesAligned": [
+        "software-engineer",
+        "backend-developer"
+      ],
+      "verifiedStatus": "Verified Industry Mentor (Demo)"
+    },
+    {
+      "id": "exp-3",
+      "name": "Priya Nair",
+      "role": "Senior Machine Learning Engineer",
+      "companyContext": "Healthcare Diagnostics & AI Research (Mumbai)",
+      "industry": "Healthcare Technology & AI",
+      "primaryDomain": "AI / ML",
+      "yearsExperience": 7,
+      "experienceTier": "6-10 Years (Senior)",
+      "avatarInitials": "PN",
+      "avatarColor": "from-purple-600 to-pink-600",
+      "rating": 4.8,
+      "sessionsCount": 48,
+      "availability": "Wednesday Mornings & Weekends",
+      "consultationTypes": [
+        "Ask an Expert",
+        "Industry Q&A",
+        "Career Guidance"
+      ],
+      "expertise": [
+        "PyTorch & TensorFlow",
+        "Computer Vision",
+        "MLOps & Deployment",
+        "Generative AI"
+      ],
+      "shortBio": "Developing computer vision pipelines and clinical diagnosis ML models. Experienced in taking deep learning algorithms from Jupyter notebooks to production inference APIs.",
+      "fullBio": "Priya has 7 years of specialized expertise in medical image segmentation, transfer learning, and model optimization. She guides university graduates and junior engineers on building credible AI portfolios and navigating ML roles.",
+      "targetRolesAligned": [
+        "ml-engineer",
+        "data-scientist"
+      ],
+      "verifiedStatus": "Verified Industry Mentor (Demo)"
+    },
+    {
+      "id": "exp-4",
+      "name": "Rohan Kulkarni",
+      "role": "Principal Cloud & DevOps Architect",
+      "companyContext": "Automotive & Logistics Cloud Platform (Pune)",
+      "industry": "Automotive & Cloud IoT",
+      "primaryDomain": "Cloud Engineering",
+      "yearsExperience": 14,
+      "experienceTier": "10+ Years (Principal / Lead)",
+      "avatarInitials": "RK",
+      "avatarColor": "from-orange-500 to-amber-600",
+      "rating": 4.9,
+      "sessionsCount": 110,
+      "availability": "Alternate Saturday Mornings",
+      "consultationTypes": [
+        "Career Guidance",
+        "Mock Interview",
+        "Resume Review"
+      ],
+      "expertise": [
+        "AWS Architecture",
+        "Kubernetes Clusters",
+        "Terraform (IaC)",
+        "CI/CD Pipelines"
+      ],
+      "shortBio": "Architecting multi-region resilient cloud infrastructures and automated deployment pipelines. Mentors engineers transitioning from traditional sysadmin to modern DevOps.",
+      "fullBio": "With 14 years in enterprise IT infrastructure and cloud transformations, Rohan has designed mission-critical systems processing telematics from millions of connected vehicles. He guides engineers on certification roadmaps and production containerization.",
+      "targetRolesAligned": [
+        "software-engineer",
+        "backend-developer"
+      ],
+      "verifiedStatus": "Verified Industry Mentor (Demo)"
+    },
+    {
+      "id": "exp-5",
+      "name": "Sneha Roy",
+      "role": "Senior Technical Product Manager",
+      "companyContext": "B2B SaaS Developer Tools (Bengaluru)",
+      "industry": "Developer Tools & SaaS",
+      "primaryDomain": "Product Management",
+      "yearsExperience": 9,
+      "experienceTier": "6-10 Years (Senior)",
+      "avatarInitials": "SR",
+      "avatarColor": "from-emerald-600 to-teal-500",
+      "rating": 4.8,
+      "sessionsCount": 55,
+      "availability": "Friday Evenings (Flexible)",
+      "consultationTypes": [
+        "Resume Review",
+        "Career Guidance",
+        "Industry Q&A"
+      ],
+      "expertise": [
+        "Product Roadmapping",
+        "User Analytics & Metrics",
+        "Agile Execution",
+        "API Products"
+      ],
+      "shortBio": "Transitioned from software development into technical product management. Advises engineers aspiring to bridge technical proficiency with business strategy and user empathy.",
+      "fullBio": "Sneha has 9 years of experience leading engineering and design squads for developer-facing API platforms. She helps candidates craft strong product case studies, refine problem-solving narratives, and crack product interviews.",
+      "targetRolesAligned": [
+        "fullstack-developer",
+        "data-analyst"
+      ],
+      "verifiedStatus": "Verified Industry Mentor (Demo)"
+    },
+    {
+      "id": "exp-6",
+      "name": "Amitav Joshi",
+      "role": "Principal Cybersecurity & Zero-Trust Advisor",
+      "companyContext": "Critical Infrastructure & SOC Defense (Delhi NCR)",
+      "industry": "Cybersecurity & Defence",
+      "primaryDomain": "Cybersecurity",
+      "yearsExperience": 11,
+      "experienceTier": "10+ Years (Principal / Lead)",
+      "avatarInitials": "AJ",
+      "avatarColor": "from-rose-600 to-red-700",
+      "rating": 4.9,
+      "sessionsCount": 78,
+      "availability": "Monday & Wednesday Evenings",
+      "consultationTypes": [
+        "Industry Q&A",
+        "Career Guidance",
+        "Ask an Expert"
+      ],
+      "expertise": [
+        "Zero-Trust Architecture",
+        "Penetration Testing",
+        "Cloud Security Posture",
+        "Threat Modeling"
+      ],
+      "shortBio": "Advising enterprises on zero-trust identity frameworks, vulnerability management, and regulatory security audits. Active speaker at national infosec symposiums.",
+      "fullBio": "Amitav has spent 11 years defending enterprise networks and auditing critical cloud environments against advanced persistent threats. He assists aspiring security analysts in identifying practical hands-on labs and certification tracks.",
+      "targetRolesAligned": [
+        "software-engineer"
+      ],
+      "verifiedStatus": "Verified Industry Mentor (Demo)"
+    },
+    {
+      "id": "exp-7",
+      "name": "Meera Krishnan",
+      "role": "Staff Frontend Architect & UI Lead",
+      "companyContext": "Consumer Tech & Fintech SuperApp (Chennai / Bengaluru)",
+      "industry": "Consumer Internet & Fintech",
+      "primaryDomain": "Software Engineering",
+      "yearsExperience": 8,
+      "experienceTier": "6-10 Years (Senior)",
+      "avatarInitials": "MK",
+      "avatarColor": "from-cyan-600 to-blue-700",
+      "rating": 4.8,
+      "sessionsCount": 42,
+      "availability": "Weekend Afternoons",
+      "consultationTypes": [
+        "Mock Interview",
+        "Resume Review",
+        "Ask an Expert"
+      ],
+      "expertise": [
+        "React 18 & Next.js",
+        "Web Performance (Core Web Vitals)",
+        "TypeScript / JS Architecture",
+        "Design Systems"
+      ],
+      "shortBio": "Building high-performance consumer web applications serving 10M+ monthly active users. Passionate about modern frontend state architecture and UI engineering best practices.",
+      "fullBio": "Meera has 8 years of frontend specialization, leading performance optimization and accessible component libraries for top Indian consumer startups. She coaches engineers on technical frontend interviews, clean component design, and bundle optimization.",
+      "targetRolesAligned": [
+        "frontend-developer",
+        "fullstack-developer"
+      ],
+      "verifiedStatus": "Verified Industry Mentor (Demo)"
+    },
+    {
+      "id": "exp-8",
+      "name": "Tanmay Bhattacharya",
+      "role": "Lead Data Scientist & Predictive Modeler",
+      "companyContext": "Retail Supply Chain Analytics (Kolkata / Mumbai)",
+      "industry": "Retail & E-commerce",
+      "primaryDomain": "Data Science",
+      "yearsExperience": 10,
+      "experienceTier": "10+ Years (Principal / Lead)",
+      "avatarInitials": "TB",
+      "avatarColor": "from-indigo-600 to-purple-700",
+      "rating": 4.9,
+      "sessionsCount": 68,
+      "availability": "Sunday Mornings",
+      "consultationTypes": [
+        "Career Guidance",
+        "Mock Interview",
+        "Industry Q&A"
+      ],
+      "expertise": [
+        "Predictive Forecasting",
+        "Python & Pandas",
+        "A/B Testing",
+        "Statistical Inference"
+      ],
+      "shortBio": "Specialist in demand forecasting, price elasticity models, and econometric data science. Regular mentor for graduates entering data analytics and predictive science.",
+      "fullBio": "Tanmay brings 10 years of applied data science experience optimizing logistics inventory and customer lifetime value algorithms. He helps learners move beyond simple Kaggle competitions into production data workflows.",
+      "targetRolesAligned": [
+        "data-scientist",
+        "data-analyst",
+        "ml-engineer"
+      ],
+      "verifiedStatus": "Verified Industry Mentor (Demo)"
+    }
+  ],
+  "PRACTICE_QUESTIONS": [
+    {
+      "id": "q1",
+      "title": "Two Sum Target Pairs",
+      "difficulty": "Easy",
+      "relatedSkill": "Data Structures & Algorithms",
+      "skillCategory": "DSA",
+      "companies": [
+        "google",
+        "amazon",
+        "microsoft",
+        "tcs",
+        "other"
+      ],
+      "roles": [
+        "software-engineer",
+        "backend-developer",
+        "fullstack-developer"
+      ],
+      "conceptsTested": [
+        "Hash Maps",
+        "Array Traversal",
+        "Time Complexity O(N)"
+      ],
+      "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input has exactly one solution, and you may not use the same element twice.",
+      "examples": [
+        {
+          "input": "nums = [2, 7, 11, 15], target = 9",
+          "output": "[0, 1]",
+          "explanation": "nums[0] + nums[1] == 9, so we return [0, 1]."
+        },
+        {
+          "input": "nums = [3, 2, 4], target = 6",
+          "output": "[1, 2]",
+          "explanation": "nums[1] + nums[2] == 6, so we return [1, 2]."
+        }
+      ],
+      "starterCode": {
+        "javascript": "function twoSum(nums, target) {\n  // Use a Hash Map to store complement indices in O(N) time\n  const map = new Map();\n  for (let i = 0; i < nums.length; i++) {\n    const complement = target - nums[i];\n    if (map.has(complement)) {\n      return [map.get(complement), i];\n    }\n    map.set(nums[i], i);\n  }\n  return [];\n}",
+        "python": "def two_sum(nums, target):\n    seen = {}\n    for i, num in enumerate(nums):\n        diff = target - num\n        if diff in seen:\n            return [seen[diff], i]\n        seen[num] = i\n    return []",
+        "sql": "-- Relational pair matching\nSELECT a.id AS idx1, b.id AS idx2\nFROM numbers a\nJOIN numbers b ON a.id < b.id\nWHERE a.val + b.val = 9;"
+      },
+      "testCases": [
+        {
+          "input": "[2, 7, 11, 15], 9",
+          "expected": "[0, 1]"
+        },
+        {
+          "input": "[3, 2, 4], 6",
+          "expected": "[1, 2]"
+        },
+        {
+          "input": "[3, 3], 6",
+          "expected": "[0, 1]"
+        }
+      ],
+      "hint": "A brute force O(N^2) double loop works, but an O(N) hash map storing { value: index } provides optimal linear time lookup."
+    },
+    {
+      "id": "q2",
+      "title": "Top Revenue Generating Customers (SQL)",
+      "difficulty": "Medium",
+      "relatedSkill": "SQL & Relational DBs",
+      "skillCategory": "SQL",
+      "companies": [
+        "amazon",
+        "accenture",
+        "infosys",
+        "tcs",
+        "other"
+      ],
+      "roles": [
+        "data-analyst",
+        "data-scientist",
+        "backend-developer"
+      ],
+      "conceptsTested": [
+        "GROUP BY",
+        "SUM() & Aggregations",
+        "HAVING Filter",
+        "ORDER BY DESC"
+      ],
+      "description": "Write an SQL query to retrieve the top 5 customers by total order spend in the current fiscal year. Only include customers who placed at least 3 distinct orders and spent more than ₹50,000 total. Output customer_id, customer_name, total_orders, and total_spend.",
+      "examples": [
+        {
+          "input": "Table: orders (order_id, customer_id, amount, order_date)\nTable: customers (customer_id, name)",
+          "output": "customer_id | customer_name | total_orders | total_spend\n101 | Rajesh Kumar | 5 | 84,500\n204 | Priya Sharma | 4 | 67,200",
+          "explanation": "Filters on COUNT(order_id) >= 3 and SUM(amount) > 50000 ordered by total_spend descending."
+        }
+      ],
+      "starterCode": {
+        "sql": "SELECT \n    c.customer_id,\n    c.name AS customer_name,\n    COUNT(o.order_id) AS total_orders,\n    SUM(o.amount) AS total_spend\nFROM customers c\nJOIN orders o ON c.customer_id = o.customer_id\nWHERE o.order_date >= '2026-01-01'\nGROUP BY c.customer_id, c.name\nHAVING COUNT(o.order_id) >= 3 AND SUM(o.amount) > 50000\nORDER BY total_spend DESC\nLIMIT 5;",
+        "javascript": "// Mock JS query parser\nfunction filterTopCustomers(customers, orders) {\n  // Aggregation logic simulation\n  return customers.filter(c => c.totalSpend > 50000);\n}"
+      },
+      "testCases": [
+        {
+          "input": "Orders batch 2026",
+          "expected": "5 top customer records returned"
+        },
+        {
+          "input": "Filter check: spend > 50k",
+          "expected": "All returned records > 50,000"
+        }
+      ],
+      "hint": "Remember to apply the aggregate conditions in the HAVING clause rather than the WHERE clause."
+    },
+    {
+      "id": "q3",
+      "title": "Implement Custom Debounce Function",
+      "difficulty": "Medium",
+      "relatedSkill": "JavaScript & DOM",
+      "skillCategory": "Frontend",
+      "companies": [
+        "google",
+        "microsoft",
+        "amazon",
+        "other"
+      ],
+      "roles": [
+        "frontend-developer",
+        "fullstack-developer"
+      ],
+      "conceptsTested": [
+        "Closures",
+        "setTimeout & clearTimeout",
+        "Higher-Order Functions",
+        "Context Binding"
+      ],
+      "description": "Implement a debounce function that takes a callback function fn and a delay in milliseconds t. The returned function should delay the execution of fn until t milliseconds have elapsed since the last time the debounced function was invoked.",
+      "examples": [
+        {
+          "input": "let log = debounce(console.log, 100);\nlog(\"Hello\"); // at t=0ms\nlog(\"World\"); // at t=50ms",
+          "output": "Logs \"World\" at t=150ms",
+          "explanation": "The call at t=0ms was cancelled because another call arrived at t=50ms before the 100ms timer elapsed."
+        }
+      ],
+      "starterCode": {
+        "javascript": "function debounce(fn, t) {\n  let timerId = null;\n  return function(...args) {\n    if (timerId !== null) {\n      clearTimeout(timerId);\n    }\n    timerId = setTimeout(() => {\n      fn.apply(this, args);\n    }, t);\n  };\n}",
+        "python": "import time\nimport threading\n\ndef debounce(fn, wait_seconds):\n    timer = None\n    def debounced(*args, **kwargs):\n        nonlocal timer\n        if timer:\n            timer.cancel()\n        timer = threading.Timer(wait_seconds, lambda: fn(*args, **kwargs))\n        timer.start()\n    return debounced"
+      },
+      "testCases": [
+        {
+          "input": "Rapid calls within 50ms (delay 100ms)",
+          "expected": "Executes once with latest argument"
+        },
+        {
+          "input": "Single call at t=0",
+          "expected": "Executes at t=100ms"
+        }
+      ],
+      "hint": "Use a closure to hold the active timer ID. Whenever the returned function is called, immediately clear the previous timer."
+    },
+    {
+      "id": "q4",
+      "title": "Find the Missing Number in Consecutive Sequence",
+      "difficulty": "Easy",
+      "relatedSkill": "Data Structures & Algorithms",
+      "skillCategory": "DSA",
+      "companies": [
+        "tcs",
+        "infosys",
+        "wipro",
+        "accenture",
+        "other"
+      ],
+      "roles": [
+        "software-engineer",
+        "fullstack-developer",
+        "data-analyst"
+      ],
+      "conceptsTested": [
+        "Gauss Formula",
+        "Bitwise XOR",
+        "O(1) Space",
+        "Array Sum"
+      ],
+      "description": "Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array. Aim for O(N) time and O(1) auxiliary space.",
+      "examples": [
+        {
+          "input": "nums = [3, 0, 1]",
+          "output": "2",
+          "explanation": "n = 3 since there are 3 numbers, so all numbers are in [0,3]. 2 is missing."
+        },
+        {
+          "input": "nums = [0, 1]",
+          "output": "2",
+          "explanation": "n = 2. 2 is missing from [0, 2]."
+        }
+      ],
+      "starterCode": {
+        "javascript": "function missingNumber(nums) {\n  const n = nums.length;\n  const expectedSum = (n * (n + 1)) / 2;\n  const actualSum = nums.reduce((acc, curr) => acc + curr, 0);\n  return expectedSum - actualSum;\n}",
+        "python": "def missing_number(nums):\n    n = len(nums)\n    expected = (n * (n + 1)) // 2\n    return expected - sum(nums)"
+      },
+      "testCases": [
+        {
+          "input": "[3, 0, 1]",
+          "expected": "2"
+        },
+        {
+          "input": "[0, 1]",
+          "expected": "2"
+        },
+        {
+          "input": "[9,6,4,2,3,5,7,0,1]",
+          "expected": "8"
+        }
+      ],
+      "hint": "Calculate the mathematical sum from 0 to n using n*(n+1)/2 and subtract the array sum to get the missing element in O(1) space."
+    },
+    {
+      "id": "q5",
+      "title": "Department Salary Ranking with Window Functions",
+      "difficulty": "Medium",
+      "relatedSkill": "SQL & Relational DBs",
+      "skillCategory": "SQL",
+      "companies": [
+        "microsoft",
+        "accenture",
+        "amazon",
+        "other"
+      ],
+      "roles": [
+        "data-analyst",
+        "data-scientist",
+        "backend-developer"
+      ],
+      "conceptsTested": [
+        "DENSE_RANK()",
+        "PARTITION BY",
+        "Common Table Expressions (CTE)",
+        "Subqueries"
+      ],
+      "description": "Write an SQL query to find the top 3 highest-earning employees in each department. If employees have identical salaries, they should share the same rank without skipping rank numbers.",
+      "examples": [
+        {
+          "input": "Table: Employee (id, name, salary, department_id)\nTable: Department (id, name)",
+          "output": "department_name | employee_name | salary | rank\nEngineering | Amit Verma | 185000 | 1\nEngineering | Sneha Rao | 165000 | 2",
+          "explanation": "Uses DENSE_RANK() OVER (PARTITION BY department_id ORDER BY salary DESC) <= 3."
+        }
+      ],
+      "starterCode": {
+        "sql": "WITH RankedSalaries AS (\n    SELECT \n        d.name AS department_name,\n        e.name AS employee_name,\n        e.salary,\n        DENSE_RANK() OVER (\n            PARTITION BY e.department_id \n            ORDER BY e.salary DESC\n        ) AS salary_rank\n    FROM Employee e\n    JOIN Department d ON e.department_id = d.id\n)\nSELECT department_name, employee_name, salary, salary_rank\nFROM RankedSalaries\nWHERE salary_rank <= 3\nORDER BY department_name, salary_rank;"
+      },
+      "testCases": [
+        {
+          "input": "Multi-department schema",
+          "expected": "Ranks 1 to 3 partitioned by department"
+        },
+        {
+          "input": "Tied salaries",
+          "expected": "Tied employees receive identical rank"
+        }
+      ],
+      "hint": "Use DENSE_RANK() instead of RANK() so that tied salaries do not create gaps in the rank sequence."
+    },
+    {
+      "id": "q6",
+      "title": "Longest Substring Without Repeating Characters",
+      "difficulty": "Medium",
+      "relatedSkill": "Data Structures & Algorithms",
+      "skillCategory": "DSA",
+      "companies": [
+        "google",
+        "amazon",
+        "microsoft",
+        "other"
+      ],
+      "roles": [
+        "software-engineer",
+        "backend-developer",
+        "fullstack-developer"
+      ],
+      "conceptsTested": [
+        "Sliding Window",
+        "Hash Set / Map",
+        "Two Pointers",
+        "String Indexing"
+      ],
+      "description": "Given a string s, find the length of the longest substring without repeating characters.",
+      "examples": [
+        {
+          "input": "s = \"abcabcbb\"",
+          "output": "3",
+          "explanation": "The answer is \"abc\", with length 3."
+        },
+        {
+          "input": "s = \"bbbbb\"",
+          "output": "1",
+          "explanation": "The answer is \"b\", with length 1."
+        }
+      ],
+      "starterCode": {
+        "javascript": "function lengthOfLongestSubstring(s) {\n  let left = 0;\n  let maxLength = 0;\n  const charMap = new Map();\n\n  for (let right = 0; right < s.length; right++) {\n    const char = s[right];\n    if (charMap.has(char) && charMap.get(char) >= left) {\n      left = charMap.get(char) + 1;\n    }\n    charMap.set(char, right);\n    maxLength = Math.max(maxLength, right - left + 1);\n  }\n  return maxLength;\n}",
+        "python": "def length_of_longest_substring(s: str) -> int:\n    used = {}\n    max_len = left = 0\n    for right, char in enumerate(s):\n        if char in used and left <= used[char]:\n            left = used[char] + 1\n        used[char] = right\n        max_len = max(max_len, right - left + 1)\n    return max_len"
+      },
+      "testCases": [
+        {
+          "input": "\"abcabcbb\"",
+          "expected": "3"
+        },
+        {
+          "input": "\"bbbbb\"",
+          "expected": "1"
+        },
+        {
+          "input": "\"pwwkew\"",
+          "expected": "3"
+        }
+      ],
+      "hint": "Use a sliding window [left, right] and store the last seen position of each character to skip duplicate indices instantly."
+    },
+    {
+      "id": "q7",
+      "title": "Calculate Classification Metrics: Precision, Recall & F1",
+      "difficulty": "Easy",
+      "relatedSkill": "Machine Learning & Python",
+      "skillCategory": "ML",
+      "companies": [
+        "google",
+        "microsoft",
+        "amazon",
+        "accenture",
+        "other"
+      ],
+      "roles": [
+        "ml-engineer",
+        "data-scientist"
+      ],
+      "conceptsTested": [
+        "Confusion Matrix",
+        "Precision = TP/(TP+FP)",
+        "Recall = TP/(TP+FN)",
+        "Harmonic Mean F1"
+      ],
+      "description": "Given True Positives (tp), False Positives (fp), and False Negatives (fn), compute the model precision, recall, and F1-score rounded to 4 decimal places. Handle division by zero gracefully by returning 0.0.",
+      "examples": [
+        {
+          "input": "tp = 80, fp = 20, fn = 10",
+          "output": "{ precision: 0.8000, recall: 0.8889, f1: 0.8421 }",
+          "explanation": "Precision = 80/100 = 0.8. Recall = 80/90 = 0.8889. F1 = 2*(P*R)/(P+R) = 0.8421."
+        }
+      ],
+      "starterCode": {
+        "python": "def compute_metrics(tp, fp, fn):\n    precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0\n    recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0\n    f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0.0\n    \n    return {\n        \"precision\": round(precision, 4),\n        \"recall\": round(recall, 4),\n        \"f1\": round(f1, 4)\n    }",
+        "javascript": "function computeMetrics(tp, fp, fn) {\n  const precision = (tp + fp) > 0 ? tp / (tp + fp) : 0;\n  const recall = (tp + fn) > 0 ? tp / (tp + fn) : 0;\n  const f1 = (precision + recall) > 0 ? (2 * precision * recall) / (precision + recall) : 0;\n\n  return {\n    precision: Number(precision.toFixed(4)),\n    recall: Number(recall.toFixed(4)),\n    f1: Number(f1.toFixed(4))\n  };\n}"
+      },
+      "testCases": [
+        {
+          "input": "80, 20, 10",
+          "expected": "{ precision: 0.8, recall: 0.8889, f1: 0.8421 }"
+        },
+        {
+          "input": "0, 5, 5",
+          "expected": "{ precision: 0, recall: 0, f1: 0 }"
+        }
+      ],
+      "hint": "F1 score is the harmonic mean of precision and recall: 2 * (precision * recall) / (precision + recall)."
+    },
+    {
+      "id": "q8",
+      "title": "Merge Overlapping Intervals",
+      "difficulty": "Medium",
+      "relatedSkill": "Data Structures & Algorithms",
+      "skillCategory": "DSA",
+      "companies": [
+        "google",
+        "microsoft",
+        "amazon",
+        "other"
+      ],
+      "roles": [
+        "software-engineer",
+        "backend-developer"
+      ],
+      "conceptsTested": [
+        "Sorting Arrays",
+        "Interval Merging",
+        "Greedy Pattern",
+        "Time O(N log N)"
+      ],
+      "description": "Given an array of intervals where intervals[i] = [start_i, end_i], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.",
+      "examples": [
+        {
+          "input": "intervals = [[1,3],[2,6],[8,10],[15,18]]",
+          "output": "[[1,6],[8,10],[15,18]]",
+          "explanation": "Since intervals [1,3] and [2,6] overlap, merge them into [1,6]."
+        }
+      ],
+      "starterCode": {
+        "javascript": "function mergeIntervals(intervals) {\n  if (intervals.length <= 1) return intervals;\n  // Sort intervals by starting time\n  intervals.sort((a, b) => a[0] - b[0]);\n\n  const merged = [intervals[0]];\n  for (let i = 1; i < intervals.length; i++) {\n    const current = intervals[i];\n    const last = merged[merged.length - 1];\n\n    if (current[0] <= last[1]) {\n      last[1] = Math.max(last[1], current[1]);\n    } else {\n      merged.push(current);\n    }\n  }\n  return merged;\n}",
+        "python": "def merge_intervals(intervals):\n    intervals.sort(key=lambda x: x[0])\n    merged = []\n    for interval in intervals:\n        if not merged or merged[-1][1] < interval[0]:\n            merged.append(interval)\n        else:\n            merged[-1][1] = max(merged[-1][1], interval[1])\n    return merged"
+      },
+      "testCases": [
+        {
+          "input": "[[1,3],[2,6],[8,10],[15,18]]",
+          "expected": "[[1,6],[8,10],[15,18]]"
+        },
+        {
+          "input": "[[1,4],[4,5]]",
+          "expected": "[[1,5]]"
+        }
+      ],
+      "hint": "Sort the intervals by their start time first. Once sorted, a consecutive interval can only overlap with the preceding merged interval."
+    },
+    {
+      "id": "q9",
+      "title": "SQL Running Total / Cumulative Sum",
+      "difficulty": "Hard",
+      "relatedSkill": "SQL & Relational DBs",
+      "skillCategory": "SQL",
+      "companies": [
+        "amazon",
+        "google",
+        "accenture",
+        "other"
+      ],
+      "roles": [
+        "data-analyst",
+        "data-scientist",
+        "backend-developer"
+      ],
+      "conceptsTested": [
+        "Window SUM()",
+        "ROWS BETWEEN UNBOUNDED PRECEDING",
+        "Cumulative Metrics"
+      ],
+      "description": "Write an SQL query to calculate the daily total transaction amount along with a cumulative running total across all days. Output transaction_date, daily_total, and running_cumulative_total.",
+      "examples": [
+        {
+          "input": "Table: Transactions (id, transaction_date, amount)",
+          "output": "date | daily_total | running_total\n2026-09-01 | 15000 | 15000\n2026-09-02 | 22000 | 37000",
+          "explanation": "Uses SUM(daily_total) OVER (ORDER BY transaction_date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)."
+        }
+      ],
+      "starterCode": {
+        "sql": "WITH DailyTotals AS (\n    SELECT \n        transaction_date,\n        SUM(amount) AS daily_total\n    FROM Transactions\n    GROUP BY transaction_date\n)\nSELECT \n    transaction_date,\n    daily_total,\n    SUM(daily_total) OVER (\n        ORDER BY transaction_date \n        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW\n    ) AS running_cumulative_total\nFROM DailyTotals\nORDER BY transaction_date;"
+      },
+      "testCases": [
+        {
+          "input": "3-day sequence",
+          "expected": "Cumulative total accurately accumulates each day"
+        }
+      ],
+      "hint": "First aggregate amounts per day using a CTE, then apply a window SUM with ORDER BY transaction_date."
+    },
+    {
+      "id": "q10",
+      "title": "LRU Cache Eviction Architecture",
+      "difficulty": "Hard",
+      "relatedSkill": "Data Structures & Algorithms",
+      "skillCategory": "DSA",
+      "companies": [
+        "google",
+        "amazon",
+        "microsoft",
+        "other"
+      ],
+      "roles": [
+        "software-engineer",
+        "backend-developer"
+      ],
+      "conceptsTested": [
+        "Doubly Linked List",
+        "Hash Map",
+        "O(1) Get and Put",
+        "Eviction Strategy"
+      ],
+      "description": "Design a data structure that follows the constraints of a Least Recently Used (LRU) cache with get(key) and put(key, value) operations executing in O(1) average time complexity.",
+      "examples": [
+        {
+          "input": "LRUCache cache = new LRUCache(2);\ncache.put(1, 1);\ncache.put(2, 2);\ncache.get(1); // returns 1\ncache.put(3, 3); // evicts key 2",
+          "output": "Evicts least recently used key 2",
+          "explanation": "Key 1 was accessed before put(3), making key 2 the least recently used element."
+        }
+      ],
+      "starterCode": {
+        "javascript": "class LRUCache {\n  constructor(capacity) {\n    this.capacity = capacity;\n    this.cache = new Map(); // JavaScript Map preserves insertion order\n  }\n\n  get(key) {\n    if (!this.cache.has(key)) return -1;\n    const value = this.cache.get(key);\n    // Refresh position to most recently used\n    this.cache.delete(key);\n    this.cache.set(key, value);\n    return value;\n  }\n\n  put(key, value) {\n    if (this.cache.has(key)) {\n      this.cache.delete(key);\n    } else if (this.cache.size >= this.capacity) {\n      // Evict oldest (first) entry in Map\n      const oldestKey = this.cache.keys().next().value;\n      this.cache.delete(oldestKey);\n    }\n    this.cache.set(key, value);\n  }\n}"
+      },
+      "testCases": [
+        {
+          "input": "Capacity 2: put(1,1), put(2,2), get(1), put(3,3)",
+          "expected": "Key 2 evicted, get(2) returns -1"
+        }
+      ],
+      "hint": "A Doubly Linked List paired with a Hash Map offers O(1) removals and insertions at both head and tail."
+    }
+  ],
+  "PRACTICE_ROLES": [
+    {
+      "id": "software-engineer",
+      "name": "Software Engineer",
+      "primarySkills": [
+        "Data Structures & Algorithms",
+        "System Logic",
+        "Clean Code"
+      ],
+      "description": "Core problem-solving, algorithms, space-time complexity, and scalable logic."
+    },
+    {
+      "id": "frontend-developer",
+      "name": "Frontend Developer",
+      "primarySkills": [
+        "JavaScript & DOM",
+        "React & State",
+        "Performance & UI"
+      ],
+      "description": "Modern component architecture, reactive state, event debouncing, and UI engineering."
+    },
+    {
+      "id": "backend-developer",
+      "name": "Backend Developer",
+      "primarySkills": [
+        "SQL & Relational DBs",
+        "API Design",
+        "Caching & Queues"
+      ],
+      "description": "Database optimization, server endpoints, distributed caches, and query performance."
+    },
+    {
+      "id": "fullstack-developer",
+      "name": "Full Stack Developer",
+      "primarySkills": [
+        "Full Stack JS",
+        "REST APIs",
+        "Database Modeling"
+      ],
+      "description": "End-to-end features spanning client rendering, business logic, and relational persistence."
+    },
+    {
+      "id": "data-analyst",
+      "name": "Data Analyst",
+      "primarySkills": [
+        "SQL & Aggregation",
+        "Python & Pandas",
+        "Business Metrics"
+      ],
+      "description": "Window functions, cohort aggregation, revenue trends, and metric reporting."
+    },
+    {
+      "id": "data-scientist",
+      "name": "Data Scientist",
+      "primarySkills": [
+        "Statistics & ML",
+        "Python & Pandas",
+        "Data Modeling"
+      ],
+      "description": "Statistical validation, feature engineering, classification metrics, and data wrangling."
+    },
+    {
+      "id": "ml-engineer",
+      "name": "ML Engineer",
+      "primarySkills": [
+        "Machine Learning",
+        "NumPy & Vectors",
+        "Model Deployment"
+      ],
+      "description": "Evaluation metrics (F1/Precision/Recall), matrix operations, and inference pipelines."
+    }
+  ],
+  "PRACTICE_COMPANIES": [
+    {
+      "id": "google",
+      "name": "Google",
+      "tier": "Tier 1 Product",
+      "category": "Product & Cloud",
+      "focus": "Algorithms, Data Structures, System Efficiency & Distributed Logic",
+      "color": "from-blue-500 to-emerald-500",
+      "initials": "G",
+      "commonTopics": [
+        "Hash Tables",
+        "Graphs & Trees",
+        "Two Pointers",
+        "Dynamic Programming"
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "tier": "Tier 1 Product",
+      "category": "Enterprise & Cloud",
+      "focus": "Data Structures, Scalable Architecture, Azure Integration, Clean OOP",
+      "color": "from-cyan-500 to-blue-600",
+      "initials": "MS",
+      "commonTopics": [
+        "Binary Trees",
+        "System Design",
+        "SQL & Relational DBs",
+        "Strings"
+      ]
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "tier": "Tier 1 Product",
+      "category": "E-commerce & AWS",
+      "focus": "Scalable Systems, Hash Tables, Object-Oriented Design, High Concurrency",
+      "color": "from-amber-500 to-orange-600",
+      "initials": "A",
+      "commonTopics": [
+        "Heaps & Priority Queues",
+        "SQL Analytics",
+        "Sliding Window",
+        "LRU Cache"
+      ]
+    },
+    {
+      "id": "tcs",
+      "name": "TCS",
+      "tier": "Global IT Services",
+      "category": "Digital Services & Consulting",
+      "focus": "Core Java/Python, SQL Fundamentals, Aptitude Logic & Database Queries",
+      "color": "from-purple-500 to-indigo-600",
+      "initials": "TCS",
+      "commonTopics": [
+        "Array Traversal",
+        "SQL Joins",
+        "String Manipulation",
+        "Basic OOP"
+      ]
+    },
+    {
+      "id": "infosys",
+      "name": "Infosys",
+      "tier": "Global IT Services",
+      "category": "Enterprise Engineering",
+      "focus": "Database Queries, Full Stack JS, Algorithm Basics & API Handling",
+      "color": "from-blue-600 to-indigo-700",
+      "initials": "INF",
+      "commonTopics": [
+        "SQL Aggregation",
+        "Array Operations",
+        "REST APIs",
+        "Data Cleaning"
+      ]
+    },
+    {
+      "id": "wipro",
+      "name": "Wipro",
+      "tier": "Global IT Services",
+      "category": "Technology & Consulting",
+      "focus": "Web Fundamentals, Relational DBs, Clean Coding & Logic Verification",
+      "color": "from-teal-500 to-emerald-600",
+      "initials": "WIP",
+      "commonTopics": [
+        "SQL Filtering",
+        "Basic Algorithms",
+        "Control Flow",
+        "Validation"
+      ]
+    },
+    {
+      "id": "accenture",
+      "name": "Accenture",
+      "tier": "Global Consulting",
+      "category": "Strategy & Cloud Services",
+      "focus": "Business Analytics, SQL Joins, Cloud Architectures & Data Pipelines",
+      "color": "from-purple-600 to-pink-600",
+      "initials": "ACC",
+      "commonTopics": [
+        "Business Metrics SQL",
+        "Data Transformation",
+        "API Integration",
+        "Analytics"
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other (General Tech)",
+      "tier": "Industry Standard",
+      "category": "Startups & Mid-Market",
+      "focus": "Standardized industry competencies matching open market requisitions",
+      "color": "from-slate-600 to-slate-800",
+      "initials": "GEN",
+      "commonTopics": [
+        "Data Structures",
+        "SQL Basics",
+        "JavaScript/React",
+        "Problem Solving"
+      ]
+    }
+  ],
+  "PRACTICE_DIFFICULTIES": [
+    {
+      "id": "all",
+      "name": "All Difficulties"
+    },
+    {
+      "id": "Easy",
+      "name": "Easy",
+      "badgeClass": "bg-emerald-50 text-emerald-700 border-emerald-200"
+    },
+    {
+      "id": "Medium",
+      "name": "Medium",
+      "badgeClass": "bg-amber-50 text-amber-700 border-amber-200"
+    },
+    {
+      "id": "Hard",
+      "name": "Hard",
+      "badgeClass": "bg-rose-50 text-rose-700 border-rose-200"
+    }
+  ],
+  "GEOGRAPHY": {
+    "GEOGRAPHY": {
+      "country": {
+        "id": "india",
+        "name": "India",
+        "code": "IN",
+        "totalStates": 36,
+        "nationalStats": {
+          "itisCount": "14,950+",
+          "sourceIti": "Ministry of Skill Development & Entrepreneurship (MSDE)",
+          "pmkvyTrained": "1.42 Cr+",
+          "sourcePmkvy": "Skill India Digital Hub (SIDH) / MSDE",
+          "ncsVacancies": "18.4 Lakh+",
+          "sourceNcs": "National Career Service (NCS)",
+          "vocationalParticipation": "5.8%",
+          "sourcePlfs": "Periodic Labour Force Survey (MoSPI)"
+        }
+      },
+      "states": [
+        {
+          "id": "maharashtra",
+          "name": "Maharashtra",
+          "capital": "Mumbai",
+          "openVacancies": 18450,
+          "trainingCenters": 486,
+          "topIndustries": [
+            "BFSI & Fintech",
+            "IT & Software",
+            "Automotive & EV",
+            "Pharmaceuticals"
+          ],
+          "overallGap": "Moderate",
+          "districts": [
+            {
+              "id": "pune",
+              "name": "Pune",
+              "demandLevel": "Very High",
+              "topIndustry": "IT & Automotive",
+              "cloudDemand": "High",
+              "availableTraining": "Medium",
+              "gapScore": "High Gap",
+              "openJobs": 5400,
+              "trainingCenters": 78,
+              "focusSkills": [
+                "Cloud Computing",
+                "Embedded Systems",
+                "Fullstack JS",
+                "Data Analytics"
+              ]
+            },
+            {
+              "id": "mumbai",
+              "name": "Mumbai",
+              "demandLevel": "Critical",
+              "topIndustry": "BFSI & Fintech",
+              "cloudDemand": "High",
+              "availableTraining": "High",
+              "gapScore": "Low Gap",
+              "openJobs": 6800,
+              "trainingCenters": 114,
+              "focusSkills": [
+                "Financial Modeling",
+                "Data Analytics",
+                "Cybersecurity",
+                "Python"
+              ]
+            },
+            {
+              "id": "nagpur",
+              "name": "Nagpur",
+              "demandLevel": "High",
+              "topIndustry": "Logistics & Tech Hub",
+              "cloudDemand": "Medium",
+              "availableTraining": "Low",
+              "gapScore": "High Gap",
+              "openJobs": 1950,
+              "trainingCenters": 36,
+              "focusSkills": [
+                "Supply Chain Analytics",
+                "Python",
+                "Cloud Basics"
+              ]
+            },
+            {
+              "id": "nashik",
+              "name": "Nashik",
+              "demandLevel": "Medium",
+              "topIndustry": "Automotive & Manufacturing",
+              "cloudDemand": "Medium",
+              "availableTraining": "Medium",
+              "gapScore": "Medium Gap",
+              "openJobs": 1350,
+              "trainingCenters": 28,
+              "focusSkills": [
+                "PLC Automation",
+                "CAD/CAM",
+                "Industrial IoT"
+              ]
+            },
+            {
+              "id": "aurangabad",
+              "name": "Chhatrapati Sambhajinagar (Aurangabad)",
+              "demandLevel": "Medium",
+              "topIndustry": "Auto Ancillaries & Pharma",
+              "cloudDemand": "Medium",
+              "availableTraining": "Low",
+              "gapScore": "High Gap",
+              "openJobs": 1100,
+              "trainingCenters": 22,
+              "focusSkills": [
+                "Pharma Quality Control",
+                "Robotics",
+                "Data Entry & Analysis"
+              ]
+            },
+            {
+              "id": "thane",
+              "name": "Thane",
+              "demandLevel": "High",
+              "topIndustry": "IT Services & Healthcare",
+              "cloudDemand": "High",
+              "availableTraining": "Medium",
+              "gapScore": "Medium Gap",
+              "openJobs": 2600,
+              "trainingCenters": 52,
+              "focusSkills": [
+                "Healthcare IT",
+                "Web Development",
+                "QA Testing"
+              ]
+            },
+            {
+              "id": "kolhapur",
+              "name": "Kolhapur",
+              "demandLevel": "Emerging",
+              "topIndustry": "Foundry & Agri-Tech",
+              "cloudDemand": "Low",
+              "availableTraining": "Low",
+              "gapScore": "Medium Gap",
+              "openJobs": 780,
+              "trainingCenters": 18,
+              "focusSkills": [
+                "Agri-Analytics",
+                "Digital Marketing",
+                "Python"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "karnataka",
+          "name": "Karnataka",
+          "capital": "Bengaluru",
+          "openVacancies": 22800,
+          "trainingCenters": 420,
+          "topIndustries": [
+            "IT & Deep Tech",
+            "Aerospace & Defense",
+            "Biotech",
+            "Electronics System Design"
+          ],
+          "overallGap": "High (Cloud & AI Talent)",
+          "districts": [
+            {
+              "id": "bengaluru-urban",
+              "name": "Bengaluru Urban",
+              "demandLevel": "Critical",
+              "topIndustry": "IT & Deep Tech",
+              "cloudDemand": "Very High",
+              "availableTraining": "High",
+              "gapScore": "Moderate Gap",
+              "openJobs": 14200,
+              "trainingCenters": 148,
+              "focusSkills": [
+                "Generative AI",
+                "Cloud Native (AWS/GCP)",
+                "Distributed Systems",
+                "DevOps"
+              ]
+            },
+            {
+              "id": "mysuru",
+              "name": "Mysuru",
+              "demandLevel": "High",
+              "topIndustry": "IT & Precision Electronics",
+              "cloudDemand": "Medium",
+              "availableTraining": "Medium",
+              "gapScore": "Medium Gap",
+              "openJobs": 2400,
+              "trainingCenters": 42,
+              "focusSkills": [
+                "Embedded C",
+                "Python",
+                "Web Development",
+                "Quality Engineering"
+              ]
+            },
+            {
+              "id": "dharwad-hubballi",
+              "name": "Dharwad (Hubballi-Dharwad)",
+              "demandLevel": "Medium",
+              "topIndustry": "Manufacturing & Emerging Tech",
+              "cloudDemand": "Medium",
+              "availableTraining": "Low",
+              "gapScore": "High Gap",
+              "openJobs": 1650,
+              "trainingCenters": 31,
+              "focusSkills": [
+                "Industrial Robotics",
+                "CAD/CAM",
+                "Data Analytics"
+              ]
+            },
+            {
+              "id": "mangaluru",
+              "name": "Dakshina Kannada (Mangaluru)",
+              "demandLevel": "Medium",
+              "topIndustry": "Fintech & Maritime Trade",
+              "cloudDemand": "Medium",
+              "availableTraining": "Medium",
+              "gapScore": "Medium Gap",
+              "openJobs": 1800,
+              "trainingCenters": 35,
+              "focusSkills": [
+                "Financial Software",
+                "Logistics Tech",
+                "Fullstack JS"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "west-bengal",
+          "name": "West Bengal",
+          "capital": "Kolkata",
+          "openVacancies": 11200,
+          "trainingCenters": 310,
+          "topIndustries": [
+            "IT/ITeS",
+            "Leather & Textiles",
+            "Steel & Metallurgy",
+            "FMCG & Logistics"
+          ],
+          "overallGap": "Moderate",
+          "districts": [
+            {
+              "id": "kolkata",
+              "name": "Kolkata",
+              "demandLevel": "High",
+              "topIndustry": "IT/ITeS & BFSI",
+              "cloudDemand": "High",
+              "availableTraining": "High",
+              "gapScore": "Low Gap",
+              "openJobs": 5600,
+              "trainingCenters": 84,
+              "focusSkills": [
+                "Data Analytics",
+                "Fullstack Web Development",
+                "Core Java",
+                "Accounting Tech"
+              ]
+            },
+            {
+              "id": "north-24-parganas",
+              "name": "North 24 Parganas (Salt Lake / Rajarhat)",
+              "demandLevel": "Very High",
+              "topIndustry": "IT Services & Fintech Hub",
+              "cloudDemand": "High",
+              "availableTraining": "Medium",
+              "gapScore": "Moderate Gap",
+              "openJobs": 3400,
+              "trainingCenters": 58,
+              "focusSkills": [
+                "Cloud Infrastructure",
+                "React/Node",
+                "Data Engineering",
+                "QA Testing"
+              ]
+            },
+            {
+              "id": "paschim-bardhaman",
+              "name": "Paschim Bardhaman (Asansol-Durgapur)",
+              "demandLevel": "Medium",
+              "topIndustry": "Steel, Power & Heavy Engineering",
+              "cloudDemand": "Low",
+              "availableTraining": "Medium",
+              "gapScore": "Medium Gap",
+              "openJobs": 1200,
+              "trainingCenters": 32,
+              "focusSkills": [
+                "Plant Automation",
+                "Mechanical Maintenance",
+                "Safety Engineering"
+              ]
+            },
+            {
+              "id": "howrah",
+              "name": "Howrah",
+              "demandLevel": "Medium",
+              "topIndustry": "Light Engineering & Foundry",
+              "cloudDemand": "Low",
+              "availableTraining": "Low",
+              "gapScore": "High Gap",
+              "openJobs": 1000,
+              "trainingCenters": 26,
+              "focusSkills": [
+                "CNC Machining",
+                "Welding Inspection",
+                "Industrial Electrical"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "telangana",
+          "name": "Telangana",
+          "capital": "Hyderabad",
+          "openVacancies": 19600,
+          "trainingCenters": 375,
+          "topIndustries": [
+            "IT & Enterprise Software",
+            "Pharma & Life Sciences",
+            "Aerospace",
+            "Data Centers"
+          ],
+          "overallGap": "Moderate to High",
+          "districts": [
+            {
+              "id": "hyderabad",
+              "name": "Hyderabad",
+              "demandLevel": "Critical",
+              "topIndustry": "IT & Cloud Software",
+              "cloudDemand": "Very High",
+              "availableTraining": "High",
+              "gapScore": "Moderate Gap",
+              "openJobs": 12800,
+              "trainingCenters": 130,
+              "focusSkills": [
+                "Cloud Architecture",
+                "Python / ML",
+                "Cybersecurity",
+                "React"
+              ]
+            },
+            {
+              "id": "medchal-malkajgiri",
+              "name": "Medchal-Malkajgiri",
+              "demandLevel": "High",
+              "topIndustry": "Pharma Manufacturing & Logistics",
+              "cloudDemand": "Medium",
+              "availableTraining": "Medium",
+              "gapScore": "Medium Gap",
+              "openJobs": 3200,
+              "trainingCenters": 48,
+              "focusSkills": [
+                "Pharma QC / QA",
+                "Biotech Analytics",
+                "Automation Systems"
+              ]
+            },
+            {
+              "id": "rangareddy",
+              "name": "Rangareddy",
+              "demandLevel": "Very High",
+              "topIndustry": "Hardware, Aerospace & Tech Parks",
+              "cloudDemand": "High",
+              "availableTraining": "Medium",
+              "gapScore": "High Gap",
+              "openJobs": 3600,
+              "trainingCenters": 52,
+              "focusSkills": [
+                "Avionics Systems",
+                "Cloud Networks",
+                "Data Center Ops"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tamil-nadu",
+          "name": "Tamil Nadu",
+          "capital": "Chennai",
+          "openVacancies": 17900,
+          "trainingCenters": 512,
+          "topIndustries": [
+            "Automotive & EV",
+            "SaaS & Enterprise IT",
+            "Textiles",
+            "Renewable Energy"
+          ],
+          "overallGap": "Low to Moderate",
+          "districts": [
+            {
+              "id": "chennai",
+              "name": "Chennai",
+              "demandLevel": "Critical",
+              "topIndustry": "SaaS, Automotive & Fintech",
+              "cloudDemand": "High",
+              "availableTraining": "High",
+              "gapScore": "Low Gap",
+              "openJobs": 8900,
+              "trainingCenters": 122,
+              "focusSkills": [
+                "SaaS Engineering",
+                "Automotive Embedded",
+                "Cloud & Data",
+                "Cybersecurity"
+              ]
+            },
+            {
+              "id": "coimbatore",
+              "name": "Coimbatore",
+              "demandLevel": "High",
+              "topIndustry": "Textile Machinery & Pumps / IT",
+              "cloudDemand": "Medium",
+              "availableTraining": "High",
+              "gapScore": "Low Gap",
+              "openJobs": 3100,
+              "trainingCenters": 64,
+              "focusSkills": [
+                "PLC Automation",
+                "Python & Data",
+                "Precision Tooling"
+              ]
+            },
+            {
+              "id": "kancheepuram",
+              "name": "Kancheepuram (Sriperumbudur Hub)",
+              "demandLevel": "High",
+              "topIndustry": "Electronics Manufacturing & Auto",
+              "cloudDemand": "Medium",
+              "availableTraining": "Medium",
+              "gapScore": "Medium Gap",
+              "openJobs": 2800,
+              "trainingCenters": 42,
+              "focusSkills": [
+                "SMT Line Operation",
+                "EV Powertrain Diagnostics",
+                "Mechatronics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "delhi-ncr",
+          "name": "Delhi NCR (National Capital Region)",
+          "capital": "New Delhi",
+          "openVacancies": 21500,
+          "trainingCenters": 430,
+          "topIndustries": [
+            "E-commerce & Consumer Tech",
+            "Fintech",
+            "Consulting & Analytics",
+            "Telecom"
+          ],
+          "overallGap": "Moderate",
+          "districts": [
+            {
+              "id": "new-delhi",
+              "name": "New Delhi & Central",
+              "demandLevel": "High",
+              "topIndustry": "Consulting, Media & Tech Policy",
+              "cloudDemand": "High",
+              "availableTraining": "High",
+              "gapScore": "Low Gap",
+              "openJobs": 6200,
+              "trainingCenters": 76,
+              "focusSkills": [
+                "Business Intelligence",
+                "Data Storytelling",
+                "Product Management"
+              ]
+            },
+            {
+              "id": "gurugram",
+              "name": "Gurugram (Haryana NCR)",
+              "demandLevel": "Critical",
+              "topIndustry": "Fintech & Tech Unicorns",
+              "cloudDemand": "Very High",
+              "availableTraining": "High",
+              "gapScore": "Moderate Gap",
+              "openJobs": 8800,
+              "trainingCenters": 98,
+              "focusSkills": [
+                "Golang",
+                "Kubernetes",
+                "Cloud Security",
+                "React/Node"
+              ]
+            },
+            {
+              "id": "noida",
+              "name": "Gautam Buddha Nagar / Noida (UP NCR)",
+              "demandLevel": "Very High",
+              "topIndustry": "Mobile Hardware & IT Parks",
+              "cloudDemand": "High",
+              "availableTraining": "Medium",
+              "gapScore": "Medium Gap",
+              "openJobs": 6500,
+              "trainingCenters": 82,
+              "focusSkills": [
+                "Electronics Testing",
+                "Cloud Ops",
+                "Fullstack JS"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gujarat",
+          "name": "Gujarat",
+          "capital": "Gandhinagar",
+          "openVacancies": 13800,
+          "trainingCenters": 395,
+          "topIndustries": [
+            "Petrochemicals & Chemicals",
+            "Pharma",
+            "GIFT City / Fintech",
+            "Solar & Green Energy"
+          ],
+          "overallGap": "Moderate",
+          "districts": [
+            {
+              "id": "ahmedabad",
+              "name": "Ahmedabad",
+              "demandLevel": "High",
+              "topIndustry": "Fintech, Pharma & Textiles",
+              "cloudDemand": "High",
+              "availableTraining": "High",
+              "gapScore": "Low Gap",
+              "openJobs": 6100,
+              "trainingCenters": 90,
+              "focusSkills": [
+                "Financial Analytics",
+                "ERP Management",
+                "Data Analysis"
+              ]
+            },
+            {
+              "id": "gandhinagar",
+              "name": "Gandhinagar (GIFT City)",
+              "demandLevel": "Very High",
+              "topIndustry": "International Banking & IT Hub",
+              "cloudDemand": "High",
+              "availableTraining": "Medium",
+              "gapScore": "Medium Gap",
+              "openJobs": 3200,
+              "trainingCenters": 44,
+              "focusSkills": [
+                "Algorithmic Trading",
+                "Cloud Compliance",
+                "Cybersecurity"
+              ]
+            },
+            {
+              "id": "vadodara",
+              "name": "Vadodara",
+              "demandLevel": "Medium",
+              "topIndustry": "Chemicals & Heavy Power Equipment",
+              "cloudDemand": "Low",
+              "availableTraining": "Medium",
+              "gapScore": "Medium Gap",
+              "openJobs": 2400,
+              "trainingCenters": 52,
+              "focusSkills": [
+                "Chemical Plant Automation",
+                "Electrical Grid Tech"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "MAHARASHTRA_GOVT_METRICS": {
+    "totalITIs": 978,
+    "govtITIs": 417,
+    "privateITIs": 561,
+    "annualIntake": 145268,
+    "activeVacanciesMahaSwayam": 284350,
+    "pmkvyCertifiedMSSDS": 842190,
+    "polytechnicsMSBTE": 452,
+    "polytechnicEnrollment": 124000,
+    "stateAlignmentScore": 74.2
+  },
+  "GOVT_PORTALS": [
+    {
+      "id": "mahaswayam",
+      "name": "MahaSwayam Portal",
+      "authority": "Dept. of Skills, Employment, Entrepreneurship & Innovation, Govt. of Maharashtra",
+      "url": "https://www.mahaswayam.gov.in/",
+      "description": "Unified employment, placement, and self-employment portal for job seekers and registered MSMEs across Maharashtra.",
+      "badge": "Govt. of Maharashtra Official"
+    },
+    {
+      "id": "dvet",
+      "name": "DVET Maharashtra",
+      "authority": "Directorate of Vocational Education & Training, Maharashtra",
+      "url": "https://www.dvet.gov.in/",
+      "description": "Statutory body administering 417 Government and 561 Private Industrial Training Institutes (ITIs) statewide.",
+      "badge": "Vocational Directorate"
+    },
+    {
+      "id": "mssds",
+      "name": "MSSDS (Maharashtra State Skill Development Society)",
+      "authority": "Government of Maharashtra",
+      "url": "https://mssds.in/",
+      "description": "Nodal implementing agency for Pramod Mahajan Kaushalya & Udyamita Vikas Abhiyan and PMKVY state component.",
+      "badge": "State Skill Mission"
+    },
+    {
+      "id": "msbte",
+      "name": "MSBTE (Board of Technical Education)",
+      "authority": "Higher & Technical Education Dept., Maharashtra",
+      "url": "https://msbte.org.in/",
+      "description": "Autonomous board designing and examining technical diploma curricula across 450+ polytechnics in Maharashtra.",
+      "badge": "Technical Education Board"
+    },
+    {
+      "id": "ncs",
+      "name": "National Career Service (NCS)",
+      "authority": "Ministry of Labour & Employment, Govt. of India",
+      "url": "https://www.ncs.gov.in/",
+      "description": "Mission Mode Project connecting 18.4L+ live vacancies, employment exchanges, and registered job seekers nationally.",
+      "badge": "Govt. of India Portal"
+    },
+    {
+      "id": "sidh",
+      "name": "Skill India Digital Hub (SIDH)",
+      "authority": "Ministry of Skill Development & Entrepreneurship (MSDE)",
+      "url": "https://www.skillindiadigital.gov.in/",
+      "description": "National digital public infrastructure for skill certifications, apprenticeships, and mobile verification.",
+      "badge": "Digital India / MSDE"
+    },
+    {
+      "id": "swayam",
+      "name": "SWAYAM Portal",
+      "authority": "Ministry of Education, Govt. of India",
+      "url": "https://swayam.gov.in/",
+      "description": "National MOOC platform offering university-accredited online learning with credit transfer eligibility under UGC / AICTE.",
+      "badge": "Ministry of Education"
+    },
+    {
+      "id": "nptel",
+      "name": "NPTEL (IITs & IISc)",
+      "authority": "IIT Madras & Consortium of IITs / MoE",
+      "url": "https://nptel.ac.in/",
+      "description": "Premier open online learning initiative by 7 Indian Institutes of Technology (IITs) and IISc for engineering & TVET.",
+      "badge": "Premier Academic MoE"
+    },
+    {
+      "id": "digilocker",
+      "name": "DigiLocker & APAAR",
+      "authority": "Ministry of Electronics and IT (MeitY) & MoE",
+      "url": "https://www.digilocker.gov.in/",
+      "description": "Digital wallet for authentic educational records, National Academic Depository (NAD), and 12-digit APAAR Student ID.",
+      "badge": "Digital India (MeitY)"
+    },
+    {
+      "id": "naps",
+      "name": "Apprenticeship India (NAPS)",
+      "authority": "Ministry of Skill Development & Entrepreneurship (MSDE)",
+      "url": "https://www.apprenticeshipindia.gov.in/",
+      "description": "National Apprenticeship Promotion Scheme portal connecting TVET graduates with industry training & DBT stipends.",
+      "badge": "National Apprenticeship"
+    }
+  ],
+  "CORPORATE_HIRING_RADAR": [
+      {
+          "id": "google",
+          "name": "Google India",
+          "shortName": "Google",
+          "initials": "GOOG",
+          "tier": "Tier 1 High Tech",
+          "tierCategory": "tier1",
+          "tierBadge": "Tier 1 Product",
+          "tierBadgeClass": "badge-primary",
+          "sector": "Search, Cloud & AI",
+          "headcount": 850,
+          "minReadinessScore": 85,
+          "ctcRange": "\u20b918.0 - \u20b935.0 LPA",
+          "roles": [
+              "Associate Software Engineer",
+              "Data Analytics Intern",
+              "Cloud Solutions Associate"
+          ],
+          "locations": [
+              "Bengaluru",
+              "Hyderabad",
+              "Pune"
+          ],
+          "technicalDemands": [
+              "Advanced DSA (Graphs, Trees, DP)",
+              "System Efficiency & Concurrency",
+              "Python / C++ / Java",
+              "Clean Modular Code & Git"
+          ],
+          "toolsDemands": [
+              "Google Cloud Platform (GCP)",
+              "Docker / Kubernetes",
+              "Linux Shell Scripting"
+          ],
+          "eligibility": "B.Tech / M.Tech / MCA or Accredited Polytechnic Diploma (CS/IT) with 65%+ or 7.0+ CGPA",
+          "assessmentFocus": "Online Coding Screen (2 Problems) -> 3 Technical Architecture & Coding Interviews -> Googliness / Culture",
+          "hiringStatus": "Active Recruitment (Off-Campus & Campus)"
+      },
+      {
+          "id": "microsoft",
+          "name": "Microsoft India",
+          "shortName": "Microsoft",
+          "initials": "MSFT",
+          "tier": "Tier 1 High Tech",
+          "tierCategory": "tier1",
+          "tierBadge": "Tier 1 Product",
+          "tierBadgeClass": "badge-primary",
+          "sector": "Enterprise Cloud, Software & AI",
+          "headcount": 920,
+          "minReadinessScore": 82,
+          "ctcRange": "\u20b916.0 - \u20b932.0 LPA",
+          "roles": [
+              "Support Engineer",
+              "Software Engineer - Azure Cloud",
+              "Applied Data Scientist"
+          ],
+          "locations": [
+              "Bengaluru",
+              "Hyderabad",
+              "Noida",
+              "Pune"
+          ],
+          "technicalDemands": [
+              "Clean OOP Design (C# / Java / Python)",
+              "Azure Services & RESTful APIs",
+              "Relational Database Design & SQL",
+              "Recursion, Heaps & Trees"
+          ],
+          "toolsDemands": [
+              "Azure DevOps",
+              "Visual Studio / VS Code",
+              "Git CLI"
+          ],
+          "eligibility": "Engineering Degree / Polytechnic Diploma in CS / IT / Allied Branches with 60%+",
+          "assessmentFocus": "Codility Automated Screening -> 2 Technical Problem Solving Rounds -> As Appropriate (AA) Leadership Round",
+          "hiringStatus": "Active Requisitions Open"
+      },
+      {
+          "id": "amazon",
+          "name": "Amazon India",
+          "shortName": "Amazon",
+          "initials": "AMZN",
+          "tier": "Tier 1 High Tech",
+          "tierCategory": "tier1",
+          "tierBadge": "Tier 1 Product",
+          "tierBadgeClass": "badge-primary",
+          "sector": "E-Commerce, Cloud (AWS) & Logistics",
+          "headcount": 1450,
+          "minReadinessScore": 80,
+          "ctcRange": "\u20b914.0 - \u20b928.0 LPA",
+          "roles": [
+              "Associate Data Engineer",
+              "Operations Technology Specialist",
+              "SDE-1"
+          ],
+          "locations": [
+              "Bengaluru",
+              "Chennai",
+              "Hyderabad",
+              "Mumbai",
+              "Pune"
+          ],
+          "technicalDemands": [
+              "Complex SQL (Window functions, CTEs, Self-joins)",
+              "ETL Pipelines & Data Warehousing",
+              "Python Scripting & Pandas",
+              "AWS S3 / Redshift / Glue basics"
+          ],
+          "toolsDemands": [
+              "AWS Cloud Console",
+              "Jupyter / PySpark",
+              "SQL Workbench"
+          ],
+          "eligibility": "Any recognized Engineering / Polytechnic Diploma / BCA / MCA graduate",
+          "assessmentFocus": "Amazon OA (2 Coding + Work Style Simulation) -> 3 Bar Raiser & Technical Rounds",
+          "hiringStatus": "High Volume Hiring"
+      },
+      {
+          "id": "flipkart",
+          "name": "Flipkart (Walmart Group)",
+          "shortName": "Flipkart",
+          "initials": "FLIP",
+          "tier": "Tier 1 High Tech",
+          "tierCategory": "tier1",
+          "tierBadge": "Tier 1 E-Com",
+          "tierBadgeClass": "badge-primary",
+          "sector": "E-Commerce & Supply Chain Tech",
+          "headcount": 680,
+          "minReadinessScore": 80,
+          "ctcRange": "\u20b912.0 - \u20b924.0 LPA",
+          "roles": [
+              "Junior Backend Developer",
+              "Catalog Operations Analyst",
+              "UI Frontend Engineer"
+          ],
+          "locations": [
+              "Bengaluru",
+              "Mumbai"
+          ],
+          "technicalDemands": [
+              "Java SpringBoot / Node.js",
+              "Redis & In-Memory Caching",
+              "MySQL / PostgreSQL Tuning",
+              "High-Concurrency Problem Solving"
+          ],
+          "toolsDemands": [
+              "Kafka Event Streams",
+              "Postman",
+              "Kibana / Grafana"
+          ],
+          "eligibility": "Degree or Diploma in Engineering with proven GitHub code repositories / projects",
+          "assessmentFocus": "Machine Coding Round (2 Hours live application building) -> Problem Solving -> Culture Fit",
+          "hiringStatus": "Early Career Hiring Open"
+      },
+      {
+          "id": "oracle",
+          "name": "Oracle India",
+          "shortName": "Oracle",
+          "initials": "ORCL",
+          "tier": "Tier 1 High Tech",
+          "tierCategory": "tier1",
+          "tierBadge": "Tier 1 Enterprise",
+          "tierBadgeClass": "badge-primary",
+          "sector": "Enterprise Database & Cloud ERP",
+          "headcount": 1100,
+          "minReadinessScore": 78,
+          "ctcRange": "\u20b910.0 - \u20b920.0 LPA",
+          "roles": [
+              "Associate Applications Developer",
+              "Cloud Support Engineer",
+              "Database Administrator Trainee"
+          ],
+          "locations": [
+              "Bengaluru",
+              "Hyderabad",
+              "Mumbai",
+              "Pune"
+          ],
+          "technicalDemands": [
+              "Relational Database Internals & PL/SQL",
+              "Linux / Unix Shell Scripting",
+              "Core Java / Python",
+              "Performance Tuning & Indexes"
+          ],
+          "toolsDemands": [
+              "Oracle Cloud Infrastructure (OCI)",
+              "SQL Developer",
+              "Linux Bash"
+          ],
+          "eligibility": "B.E. / B.Tech / Polytechnic Diploma (CS/IT/Electronics) with 60% aggregate",
+          "assessmentFocus": "Online Aptitude & Coding Test -> 2 Core Technical Rounds -> HR",
+          "hiringStatus": "Actively Recruiting"
+      },
+      {
+          "id": "tcs",
+          "name": "Tata Consultancy Services (TCS)",
+          "shortName": "TCS",
+          "initials": "TCS",
+          "tier": "IT Services & Mid-Tier Tech",
+          "tierCategory": "tier2",
+          "tierBadge": "Global IT Services",
+          "tierBadgeClass": "badge-cyan",
+          "sector": "Digital Transformation & IT Consulting",
+          "headcount": 16800,
+          "minReadinessScore": 70,
+          "ctcRange": "\u20b93.6 - \u20b97.5 LPA (Ninja / Digital / Prime)",
+          "roles": [
+              "Assistant System Engineer",
+              "Digital Cadre Developer",
+              "Cloud Operations Trainee"
+          ],
+          "locations": [
+              "Mumbai",
+              "Pune",
+              "Nagpur",
+              "Nashik",
+              "Bengaluru",
+              "Chennai"
+          ],
+          "technicalDemands": [
+              "Core Java / Python / C#",
+              "SQL Querying (Joins, Aggregations, Group By)",
+              "Logical Aptitude & Numerical Reasoning",
+              "SDLC & Git Fundamentals"
+          ],
+          "toolsDemands": [
+              "Eclipse / VS Code",
+              "MySQL / Oracle DB",
+              "Git / GitHub"
+          ],
+          "eligibility": "Diploma TVET / B.E. / B.Sc / BCA with minimum 60% marks and no active backlogs",
+          "assessmentFocus": "TCS NQT (Cognitive Abilities + Programming MCQ & Coding) -> Technical Interview -> Managerial & HR",
+          "hiringStatus": "National Qualifier Test (NQT) Live"
+      },
+      {
+          "id": "infosys",
+          "name": "Infosys Limited",
+          "shortName": "Infosys",
+          "initials": "INFY",
+          "tier": "IT Services & Mid-Tier Tech",
+          "tierCategory": "tier2",
+          "tierBadge": "Global IT Services",
+          "tierBadgeClass": "badge-cyan",
+          "sector": "Enterprise Applications & Cloud Services",
+          "headcount": 14200,
+          "minReadinessScore": 70,
+          "ctcRange": "\u20b93.8 - \u20b99.5 LPA (SE / Specialist Programmer)",
+          "roles": [
+              "Systems Engineer",
+              "Specialist Programmer (DSE)",
+              "Operations Executive"
+          ],
+          "locations": [
+              "Pune (Hinjawadi)",
+              "Mumbai",
+              "Bengaluru",
+              "Hyderabad",
+              "Nagpur"
+          ],
+          "technicalDemands": [
+              "Full Stack Web (JavaScript, HTML5, CSS3, React basics)",
+              "Database Normalization & SQL Queries",
+              "RESTful API Integration",
+              "Basic Data Structures"
+          ],
+          "toolsDemands": [
+              "Spring Boot / Node.js",
+              "PostgreSQL",
+              "Postman API Client"
+          ],
+          "eligibility": "Polytechnic Diploma, B.E./B.Tech, B.Sc, BCA with 60%+ throughout 10th, 12th & Graduation",
+          "assessmentFocus": "Infosys Online Test (Reasoning, Mathematical, Pseudocode, Puzzle Solving) -> Technical Round -> HR",
+          "hiringStatus": "Off-Campus & Institutional Drives"
+      },
+      {
+          "id": "wipro",
+          "name": "Wipro Technologies",
+          "shortName": "Wipro",
+          "initials": "WIPR",
+          "tier": "IT Services & Mid-Tier Tech",
+          "tierCategory": "tier2",
+          "tierBadge": "Global IT Services",
+          "tierBadgeClass": "badge-cyan",
+          "sector": "Technology Consulting & Digital Operations",
+          "headcount": 9500,
+          "minReadinessScore": 68,
+          "ctcRange": "\u20b93.5 - \u20b96.5 LPA (Elite / Turbo)",
+          "roles": [
+              "Project Engineer",
+              "Cloud Infrastructure Trainee",
+              "Test Automation Associate"
+          ],
+          "locations": [
+              "Pune",
+              "Mumbai",
+              "Bengaluru",
+              "Chennai",
+              "Kolkata"
+          ],
+          "technicalDemands": [
+              "Basic Programming (Java / Python / C++)",
+              "Networking & Cloud Essentials",
+              "Basic SQL Filters & Views",
+              "Troubleshooting & Log Verification"
+          ],
+          "toolsDemands": [
+              "Linux CLI",
+              "Jira",
+              "Selenium basics"
+          ],
+          "eligibility": "Diploma in Engineering / B.Tech / BCA with 60% aggregate and max 1 backlog allowed",
+          "assessmentFocus": "Elite National Talent Hunt (Aptitude, Written English Communication, Online Coding) -> Business Discussion",
+          "hiringStatus": "Open for Registration"
+      },
+      {
+          "id": "cognizant",
+          "name": "Cognizant (CTS)",
+          "shortName": "Cognizant",
+          "initials": "CTSH",
+          "tier": "IT Services & Mid-Tier Tech",
+          "tierCategory": "tier2",
+          "tierBadge": "Global IT Services",
+          "tierBadgeClass": "badge-cyan",
+          "sector": "Healthcare, BFS & Digital IT Services",
+          "headcount": 11000,
+          "minReadinessScore": 70,
+          "ctcRange": "\u20b94.0 - \u20b97.0 LPA (GenC / GenC Next)",
+          "roles": [
+              "Programmer Analyst Trainee",
+              "Quality Engineering Associate",
+              "Data Analytics Trainee"
+          ],
+          "locations": [
+              "Mumbai",
+              "Pune",
+              "Chennai",
+              "Hyderabad",
+              "Kolkata"
+          ],
+          "technicalDemands": [
+              "Object-Oriented Programming Fundamentals",
+              "RDBMS & SQL Query Construction",
+              "Basic Data Wrangling & Excel",
+              "Analytical Troubleshooting"
+          ],
+          "toolsDemands": [
+              "Git",
+              "SQL Server / MySQL",
+              "Eclipse IDE"
+          ],
+          "eligibility": "All academic engineering & technical diploma streams with 60%+ throughout",
+          "assessmentFocus": "Skill-based Aptitude & Coding Assessment -> Technical Interview -> HR Discussion",
+          "hiringStatus": "Active Recruitment Window"
+      },
+      {
+          "id": "persistent",
+          "name": "Persistent Systems",
+          "shortName": "Persistent",
+          "initials": "PSYS",
+          "tier": "IT Services & Mid-Tier Tech",
+          "tierCategory": "tier2",
+          "tierBadge": "Product Engineering",
+          "tierBadgeClass": "badge-cyan",
+          "sector": "Software Product Engineering & HealthTech",
+          "headcount": 2400,
+          "minReadinessScore": 72,
+          "ctcRange": "\u20b94.5 - \u20b98.5 LPA",
+          "roles": [
+              "Associate Software Developer",
+              "Cloud & DevOps Associate",
+              "Data QA Specialist"
+          ],
+          "locations": [
+              "Pune (Senapati Bapat Rd / Hinjawadi)",
+              "Nagpur",
+              "Goa",
+              "Bengaluru"
+          ],
+          "technicalDemands": [
+              "RESTful API Development (Node/Python/Java)",
+              "Docker & Linux Command Line",
+              "PostgreSQL / MySQL Schema Design",
+              "Unit Testing & Git Workflows"
+          ],
+          "toolsDemands": [
+              "Docker",
+              "Postman",
+              "GitHub Actions"
+          ],
+          "eligibility": "Diploma in Computer / IT or B.E. / B.Tech with 60%+ aggregate",
+          "assessmentFocus": "Coding Assessment (DSA & SQL) -> Hands-on Technical Interview -> Cultural Fit",
+          "hiringStatus": "Actively Hiring for Pune & Nagpur Hubs"
+      },
+      {
+          "id": "hexaware",
+          "name": "Hexaware Technologies",
+          "shortName": "Hexaware",
+          "initials": "HEXA",
+          "tier": "IT Services & Mid-Tier Tech",
+          "tierCategory": "tier2",
+          "tierBadge": "IT Modernization",
+          "tierBadgeClass": "badge-cyan",
+          "sector": "Automation, Cloud & IT Modernization",
+          "headcount": 1850,
+          "minReadinessScore": 68,
+          "ctcRange": "\u20b93.8 - \u20b96.0 LPA",
+          "roles": [
+              "Associate Automation Engineer",
+              "Infrastructure Engineer",
+              "Junior QA Analyst"
+          ],
+          "locations": [
+              "Mumbai (Mahape)",
+              "Pune",
+              "Chennai"
+          ],
+          "technicalDemands": [
+              "Test Automation (Selenium / Python)",
+              "SQL Verification Queries",
+              "CI/CD Pipeline Awareness",
+              "Agile Methodologies"
+          ],
+          "toolsDemands": [
+              "Selenium WebDriver",
+              "Jira",
+              "Jenkins"
+          ],
+          "eligibility": "Diploma / Degree in technical streams with 60%+",
+          "assessmentFocus": "Aptitude + Domain Assessment -> Technical Interview -> HR",
+          "hiringStatus": "Direct Campus & State Pool Hiring"
+      },
+      {
+          "id": "tatamotors",
+          "name": "Tata Motors Limited",
+          "shortName": "Tata Motors",
+          "initials": "TML",
+          "tier": "Non-Tech & Core Industry",
+          "tierCategory": "core",
+          "tierBadge": "Automotive & EV",
+          "tierBadgeClass": "badge-warning",
+          "sector": "Automotive, Electric Mobility & Manufacturing",
+          "headcount": 1250,
+          "minReadinessScore": 75,
+          "ctcRange": "\u20b93.2 - \u20b95.5 LPA",
+          "roles": [
+              "Diploma Trainee Engineer (DTE)",
+              "EV Battery Systems Associate",
+              "Assembly & Quality Supervisor"
+          ],
+          "locations": [
+              "Pune (Pimpri-Chinchwad)",
+              "Pantnagar",
+              "Sanand",
+              "Jamshedpur"
+          ],
+          "technicalDemands": [
+              "PLC Programming (Siemens / Allen-Bradley)",
+              "CAD / SolidWorks / CATIA Drafting",
+              "Quality Assurance (5S, Kaizen, Six Sigma basics)",
+              "Industrial Safety & Wiring Schematics"
+          ],
+          "toolsDemands": [
+              "AutoCAD / SolidWorks",
+              "Siemens TIA Portal",
+              "SAP PM / PP Module basics"
+          ],
+          "eligibility": "Diploma in Mechanical / Electrical / Automobile / Mechatronics from MSBTE or recognized State Technical Board",
+          "assessmentFocus": "Technical Trade Test -> Practical Workshop Evaluation -> Panel Interview",
+          "hiringStatus": "TVET Apprenticeship & DTE Cohort Open"
+      },
+      {
+          "id": "lnt",
+          "name": "Larsen & Toubro (L&T)",
+          "shortName": "L&T Core",
+          "initials": "L&T",
+          "tier": "Non-Tech & Core Industry",
+          "tierCategory": "core",
+          "tierBadge": "Heavy Engg & Infra",
+          "tierBadgeClass": "badge-warning",
+          "sector": "Heavy Engineering, Construction & Infrastructure",
+          "headcount": 1800,
+          "minReadinessScore": 72,
+          "ctcRange": "\u20b94.0 - \u20b96.2 LPA",
+          "roles": [
+              "Graduate Commercial Trainee",
+              "Site Junior Engineer (Civil/Mech)",
+              "Quality Inspection Trainee"
+          ],
+          "locations": [
+              "Mumbai (Powai)",
+              "Hazira",
+              "Pune",
+              "Chennai",
+              "Vadodara"
+          ],
+          "technicalDemands": [
+              "Engineering Drawings & Tolerance Standards",
+              "Estimation & Quantity Surveying (MS Excel)",
+              "Project Tracking (MS Project / Primavera basics)",
+              "Non-Destructive Testing (NDT) Awareness"
+          ],
+          "toolsDemands": [
+              "AutoCAD Civil / Mech",
+              "Advanced Excel (Costing models)",
+              "SAP ERP basics"
+          ],
+          "eligibility": "Diploma in Civil / Mechanical / Electrical with 65%+ and First Class",
+          "assessmentFocus": "Aptitude & Core Engineering Domain Test -> Technical Interview -> Medical Fitness Examination",
+          "hiringStatus": "Core Engineer Trainee Intake"
+      },
+      {
+          "id": "mahindra",
+          "name": "Mahindra & Mahindra",
+          "shortName": "Mahindra",
+          "initials": "M&M",
+          "tier": "Non-Tech & Core Industry",
+          "tierCategory": "core",
+          "tierBadge": "Automotive & Farm",
+          "tierBadgeClass": "badge-warning",
+          "sector": "Automotive, Farm Mechanization & Manufacturing",
+          "headcount": 980,
+          "minReadinessScore": 70,
+          "ctcRange": "\u20b93.5 - \u20b95.8 LPA",
+          "roles": [
+              "Production Associate Engineer",
+              "Quality Control Inspector",
+              "Plant Maintenance Technician"
+          ],
+          "locations": [
+              "Nashik (Satpur / Ambad)",
+              "Pune (Chakan)",
+              "Kandivali (Mumbai)",
+              "Nagpur"
+          ],
+          "technicalDemands": [
+              "CNC Milling & Turning Operations",
+              "Geometric Dimensioning & Tolerancing (GD&T)",
+              "Hydraulics & Pneumatics Systems",
+              "Preventive Maintenance Tracking"
+          ],
+          "toolsDemands": [
+              "Mastercam / CNC G-code",
+              "Vernier / Micrometer / CMM",
+              "MS Excel Maintenance Logs"
+          ],
+          "eligibility": "Diploma in Mechanical / Production / Electrical Engineering",
+          "assessmentFocus": "Written Aptitude & Technical Test -> Shopfloor Practical Round -> HR Round",
+          "hiringStatus": "Nashik & Chakan Plants Hiring"
+      },
+      {
+          "id": "hdfcbank",
+          "name": "HDFC Bank",
+          "shortName": "HDFC Bank",
+          "initials": "HDFC",
+          "tier": "Non-Tech & Core Industry",
+          "tierCategory": "core",
+          "tierBadge": "BFSI & Retail Banking",
+          "tierBadgeClass": "badge-warning",
+          "sector": "Banking, Financial Services & FinOps",
+          "headcount": 3400,
+          "minReadinessScore": 70,
+          "ctcRange": "\u20b93.6 - \u20b95.5 LPA",
+          "roles": [
+              "Junior Financial Operations Analyst",
+              "Branch Banking Executive",
+              "Credit Verification Associate"
+          ],
+          "locations": [
+              "Mumbai",
+              "Pune",
+              "Nagpur",
+              "Thane",
+              "Nashik",
+              "Aurangabad"
+          ],
+          "technicalDemands": [
+              "Advanced Microsoft Excel (VLOOKUP, Pivot Tables, Conditional Formatting)",
+              "Financial Account Reconciliation",
+              "Regulatory KYC / AML Compliance Guidelines",
+              "Audit Trail & Data Verification"
+          ],
+          "toolsDemands": [
+              "Finacle Banking Software basics",
+              "MS Excel (Financial Modeling)",
+              "Power BI Dashboards"
+          ],
+          "eligibility": "Graduate in Commerce / Economics / BBA / Polytechnic Commercial Diploma / B.Sc / Any Degree",
+          "assessmentFocus": "Numerical Aptitude & Business Reasoning Test -> Case Study Discussion -> Personal Interview",
+          "hiringStatus": "State-wide Branch Banking Walk-in & Drives"
+      },
+      {
+          "id": "bajajauto",
+          "name": "Bajaj Auto Limited",
+          "shortName": "Bajaj Auto",
+          "initials": "BAJAJ",
+          "tier": "Non-Tech & Core Industry",
+          "tierCategory": "core",
+          "tierBadge": "Two-Wheeler / Auto",
+          "tierBadgeClass": "badge-warning",
+          "sector": "Two-Wheeler & Three-Wheeler Manufacturing",
+          "headcount": 820,
+          "minReadinessScore": 74,
+          "ctcRange": "\u20b93.4 - \u20b95.6 LPA",
+          "roles": [
+              "Mechatronics Line Supervisor",
+              "Testing & R&D Shopfloor Associate",
+              "Spares Operations Coordinator"
+          ],
+          "locations": [
+              "Pune (Akurdi & Chakan)",
+              "Aurangabad (Waluj)",
+              "Pantnagar"
+          ],
+          "technicalDemands": [
+              "Pneumatic & Sensor Feedback Circuits",
+              "Robotics & Automated Guided Vehicles (AGV) Handling",
+              "Root Cause Analysis (8D Methodology)",
+              "Lean Manufacturing & Zero Defect Workflows"
+          ],
+          "toolsDemands": [
+              "PLC Software (Mitsubishi / Omron)",
+              "CAD Drafting",
+              "Inspection Jigs & Gauges"
+          ],
+          "eligibility": "Diploma in Mechanical / Mechatronics / Electrical from State Board of Technical Education",
+          "assessmentFocus": "Aptitude & Machine Reasoning -> Practical Tool Test -> HR Interview",
+          "hiringStatus": "Chakan & Waluj Production Cohort"
+      },
+      {
+          "id": "reliance",
+          "name": "Reliance Industries (Retail & Jio Ops)",
+          "shortName": "Reliance Jio",
+          "initials": "RIL",
+          "tier": "Non-Tech & Core Industry",
+          "tierCategory": "core",
+          "tierBadge": "Retail & Telecom Ops",
+          "tierBadgeClass": "badge-warning",
+          "sector": "Retail Supply Chain, Telecom & Logistics",
+          "headcount": 4600,
+          "minReadinessScore": 68,
+          "ctcRange": "\u20b93.0 - \u20b94.8 LPA",
+          "roles": [
+              "Supply Chain & Inventory Associate",
+              "Field Telecom Network Technician",
+              "Warehouse Fulfillment Coordinator"
+          ],
+          "locations": [
+              "Navi Mumbai (Ghansoli)",
+              "Pune",
+              "Nagpur",
+              "Solapur",
+              "Kolhapur"
+          ],
+          "technicalDemands": [
+              "Enterprise ERP (SAP MM / SD Navigation basics)",
+              "Warehouse Management System (WMS) Scanning",
+              "Inventory Reorder Point Calculations",
+              "Field Optical Fiber / RF Splicing & Diagnostics"
+          ],
+          "toolsDemands": [
+              "SAP GUI",
+              "OTDR Fiber Tester",
+              "Barcode Scanners / Handheld Terminals"
+          ],
+          "eligibility": "Any 3-year Diploma, BCA, B.Sc, B.Com or Technical Trade Certificate",
+          "assessmentFocus": "Online Aptitude & Logistics Reasoning Test -> Technical Assessment -> HR Verification",
+          "hiringStatus": "Maharashtra Mega Drive Active"
+      }
+  ]
+};
